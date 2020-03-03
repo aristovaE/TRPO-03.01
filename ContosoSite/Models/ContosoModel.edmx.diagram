@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="44e0da0650d84241a18e2f3131645084" Name="Diagram1" ZoomLevel="101">
+        <EntityTypeShape EntityType="VistavkiModel.Exhibition" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="VistavkiModel.Status" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="VistavkiModel.FK_Status_ToTable" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="VistavkiModel.Artist" Width="1.5" PointX="7.75" PointY="1" />
+        <EntityTypeShape EntityType="VistavkiModel.Account" Width="1.5" PointX="9.75" PointY="1" />
+        <EntityTypeShape EntityType="VistavkiModel.Picture" Width="1.5" PointX="5.5" PointY="1" />
+        <AssociationConnector Association="VistavkiModel.FK_Artist_ToTable" />
+        <AssociationConnector Association="VistavkiModel.FK_Exhibition_ToTable" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

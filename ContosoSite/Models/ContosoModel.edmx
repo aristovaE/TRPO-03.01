@@ -1,0 +1,353 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="Хранилище VistavkiModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Account">
+          <Key>
+            <PropertyRef Name="Id_acc" />
+          </Key>
+          <Property Name="Id_acc" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Login" Type="nvarchar" MaxLength="20" />
+          <Property Name="Password" Type="nvarchar" MaxLength="20" />
+          <Property Name="Role" Type="nvarchar" MaxLength="20" />
+        </EntityType>
+        <EntityType Name="Artist">
+          <Key>
+            <PropertyRef Name="Id_artist" />
+          </Key>
+          <Property Name="Id_artist" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="FirstName" Type="nvarchar" MaxLength="20" />
+          <Property Name="SecondName" Type="nvarchar" MaxLength="20" />
+          <Property Name="PhoneNumber" Type="nvarchar" MaxLength="16" />
+        </EntityType>
+        <EntityType Name="Exhibition">
+          <Key>
+            <PropertyRef Name="Id_exhibition" />
+          </Key>
+          <Property Name="Id_exhibition" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" MaxLength="30" />
+          <Property Name="ThemeOf" Type="nvarchar" MaxLength="40" />
+          <Property Name="Address" Type="nvarchar" MaxLength="40" />
+          <Property Name="Price" Type="money" />
+          <Property Name="Date_Open" Type="date" />
+          <Property Name="Date_Close" Type="date" />
+          <Property Name="Status_id" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Picture">
+          <Key>
+            <PropertyRef Name="Id_pic" />
+          </Key>
+          <Property Name="Id_pic" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" MaxLength="30" />
+          <Property Name="Exhibition_id" Type="int" Nullable="false" />
+          <Property Name="Artist_id" Type="int" Nullable="false" />
+          <Property Name="Description" Type="nvarchar" MaxLength="50" />
+          <Property Name="Image" Type="image" />
+        </EntityType>
+        <EntityType Name="Status">
+          <Key>
+            <PropertyRef Name="Id_status" />
+          </Key>
+          <Property Name="Id_status" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" MaxLength="20" />
+        </EntityType>
+        <Association Name="FK_Artist_ToTable">
+          <End Role="Artist" Type="Self.Artist" Multiplicity="1" />
+          <End Role="Picture" Type="Self.Picture" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Artist">
+              <PropertyRef Name="Id_artist" />
+            </Principal>
+            <Dependent Role="Picture">
+              <PropertyRef Name="Artist_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Exhibition_ToTable">
+          <End Role="Exhibition" Type="Self.Exhibition" Multiplicity="1" />
+          <End Role="Picture" Type="Self.Picture" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Exhibition">
+              <PropertyRef Name="Id_exhibition" />
+            </Principal>
+            <Dependent Role="Picture">
+              <PropertyRef Name="Exhibition_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Status_ToTable">
+          <End Role="Status" Type="Self.Status" Multiplicity="1" />
+          <End Role="Exhibition" Type="Self.Exhibition" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Status">
+              <PropertyRef Name="Id_status" />
+            </Principal>
+            <Dependent Role="Exhibition">
+              <PropertyRef Name="Status_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Function Name="Auth_User" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="Login" Type="nchar" Mode="In" />
+          <Parameter Name="Password" Type="nchar" Mode="In" />
+        </Function>
+        <Function Name="CountPic" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="Id_artist" Type="int" Mode="In" />
+        </Function>
+        <Function Name="Insert_User" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="Log" Type="nvarchar" Mode="In" />
+          <Parameter Name="Password" Type="nvarchar" Mode="In" />
+          <Parameter Name="Role" Type="nvarchar" Mode="In" />
+          <Parameter Name="Name" Type="nvarchar" Mode="In" />
+          <Parameter Name="Phone" Type="nvarchar" Mode="In" />
+        </Function>
+        <EntityContainer Name="Хранилище VistavkiModelContainer">
+          <EntitySet Name="Account" EntityType="Self.Account" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Artist" EntityType="Self.Artist" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Exhibition" EntityType="Self.Exhibition" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Picture" EntityType="Self.Picture" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Status" EntityType="Self.Status" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_Artist_ToTable" Association="Self.FK_Artist_ToTable">
+            <End Role="Artist" EntitySet="Artist" />
+            <End Role="Picture" EntitySet="Picture" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Exhibition_ToTable" Association="Self.FK_Exhibition_ToTable">
+            <End Role="Exhibition" EntitySet="Exhibition" />
+            <End Role="Picture" EntitySet="Picture" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Status_ToTable" Association="Self.FK_Status_ToTable">
+            <End Role="Status" EntitySet="Status" />
+            <End Role="Exhibition" EntitySet="Exhibition" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="VistavkiModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Exhibition">
+          <Key>
+            <PropertyRef Name="Id_exhibition" />
+          </Key>
+          <Property Name="Id_exhibition" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+          <Property Name="ThemeOf" Type="String" MaxLength="40" FixedLength="false" Unicode="true" />
+          <Property Name="Address" Type="String" MaxLength="40" FixedLength="false" Unicode="true" />
+          <Property Name="Price" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="Date_Open" Type="DateTime" Precision="0" />
+          <Property Name="Date_Close" Type="DateTime" Precision="0" />
+          <Property Name="Status_id" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Status" Relationship="Self.FK_Status_ToTable" FromRole="Exhibition" ToRole="Status" />
+          <NavigationProperty Name="Pictures" Relationship="VistavkiModel.FK_Exhibition_ToTable" FromRole="Exhibition" ToRole="Picture" />
+        </EntityType>
+        <EntityType Name="Status">
+          <Key>
+            <PropertyRef Name="Id_status" />
+          </Key>
+          <Property Name="Id_status" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Exhibitions" Relationship="Self.FK_Status_ToTable" FromRole="Status" ToRole="Exhibition" />
+        </EntityType>
+        <Association Name="FK_Status_ToTable">
+          <End Role="Status" Type="Self.Status" Multiplicity="1" />
+          <End Role="Exhibition" Type="Self.Exhibition" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Status">
+              <PropertyRef Name="Id_status" />
+            </Principal>
+            <Dependent Role="Exhibition">
+              <PropertyRef Name="Status_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="VistavkiEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Exhibitions" EntityType="Self.Exhibition" />
+          <EntitySet Name="Status" EntityType="Self.Status" />
+          <AssociationSet Name="FK_Status_ToTable" Association="Self.FK_Status_ToTable">
+            <End Role="Status" EntitySet="Status" />
+            <End Role="Exhibition" EntitySet="Exhibitions" />
+          </AssociationSet>
+          <EntitySet Name="Artists" EntityType="VistavkiModel.Artist" />
+          <EntitySet Name="Accounts" EntityType="VistavkiModel.Account" />
+          <EntitySet Name="Pictures" EntityType="VistavkiModel.Picture" />
+          <AssociationSet Name="FK_Artist_ToTable" Association="VistavkiModel.FK_Artist_ToTable">
+            <End Role="Artist" EntitySet="Artists" />
+            <End Role="Picture" EntitySet="Pictures" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Exhibition_ToTable" Association="VistavkiModel.FK_Exhibition_ToTable">
+            <End Role="Exhibition" EntitySet="Exhibitions" />
+            <End Role="Picture" EntitySet="Pictures" />
+          </AssociationSet>
+          <FunctionImport Name="Insert_User" ReturnType="Collection(Int32)">
+            <Parameter Name="Log" Mode="In" Type="String" />
+            <Parameter Name="Password" Mode="In" Type="String" />
+            <Parameter Name="Role" Mode="In" Type="String" />
+            <Parameter Name="Name" Mode="In" Type="String" />
+            <Parameter Name="Phone" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="Auth_User" ReturnType="Collection(VistavkiModel.Auth_User_Result)">
+            <Parameter Name="Login" Mode="In" Type="String" />
+            <Parameter Name="Password" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="CountPic" ReturnType="Collection(Int32)">
+          <Parameter Name="Id_artist" Mode="In" Type="Int32" />
+          </FunctionImport>
+        </EntityContainer>
+        <EntityType Name="Artist">
+          <Key>
+            <PropertyRef Name="Id_artist" />
+          </Key>
+          <Property Name="Id_artist" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="FirstName" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="SecondName" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="PhoneNumber" Type="String" MaxLength="16" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Pictures" Relationship="VistavkiModel.FK_Artist_ToTable" FromRole="Artist" ToRole="Picture" />
+        </EntityType>
+        <EntityType Name="Account">
+          <Key>
+            <PropertyRef Name="Id_acc" />
+          </Key>
+          <Property Name="Id_acc" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Login" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="Password" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="Role" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="Picture">
+          <Key>
+            <PropertyRef Name="Id_pic" />
+          </Key>
+          <Property Name="Id_pic" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+          <Property Name="Exhibition_id" Type="Int32" Nullable="false" />
+          <Property Name="Artist_id" Type="Int32" Nullable="false" />
+          <Property Name="Description" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Image" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <NavigationProperty Name="Artist" Relationship="VistavkiModel.FK_Artist_ToTable" FromRole="Picture" ToRole="Artist" />
+          <NavigationProperty Name="Exhibition" Relationship="VistavkiModel.FK_Exhibition_ToTable" FromRole="Picture" ToRole="Exhibition" />
+        </EntityType>
+        <Association Name="FK_Artist_ToTable">
+          <End Type="VistavkiModel.Artist" Role="Artist" Multiplicity="1" />
+          <End Type="VistavkiModel.Picture" Role="Picture" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Artist">
+              <PropertyRef Name="Id_artist" />
+            </Principal>
+            <Dependent Role="Picture">
+              <PropertyRef Name="Artist_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Exhibition_ToTable">
+          <End Type="VistavkiModel.Exhibition" Role="Exhibition" Multiplicity="1" />
+          <End Type="VistavkiModel.Picture" Role="Picture" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Exhibition">
+              <PropertyRef Name="Id_exhibition" />
+            </Principal>
+            <Dependent Role="Picture">
+              <PropertyRef Name="Exhibition_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <ComplexType Name="Auth_User_Result">
+          <Property Type="String" Name="Login" Nullable="true" MaxLength="20" />
+          <Property Type="String" Name="Password" Nullable="true" MaxLength="20" />
+          <Property Type="String" Name="Role" Nullable="true" MaxLength="20" />
+        </ComplexType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="Хранилище VistavkiModelContainer" CdmEntityContainer="VistavkiEntities">
+          <EntitySetMapping Name="Exhibitions">
+            <EntityTypeMapping TypeName="VistavkiModel.Exhibition">
+              <MappingFragment StoreEntitySet="Exhibition">
+                <ScalarProperty Name="Id_exhibition" ColumnName="Id_exhibition" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="ThemeOf" ColumnName="ThemeOf" />
+                <ScalarProperty Name="Address" ColumnName="Address" />
+                <ScalarProperty Name="Price" ColumnName="Price" />
+                <ScalarProperty Name="Date_Open" ColumnName="Date_Open" />
+                <ScalarProperty Name="Date_Close" ColumnName="Date_Close" />
+                <ScalarProperty Name="Status_id" ColumnName="Status_id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Status">
+            <EntityTypeMapping TypeName="VistavkiModel.Status">
+              <MappingFragment StoreEntitySet="Status">
+                <ScalarProperty Name="Id_status" ColumnName="Id_status" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Artists">
+            <EntityTypeMapping TypeName="VistavkiModel.Artist">
+              <MappingFragment StoreEntitySet="Artist">
+                <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+                <ScalarProperty Name="SecondName" ColumnName="SecondName" />
+                <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+                <ScalarProperty Name="Id_artist" ColumnName="Id_artist" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Accounts">
+            <EntityTypeMapping TypeName="VistavkiModel.Account">
+              <MappingFragment StoreEntitySet="Account">
+                <ScalarProperty Name="Role" ColumnName="Role" />
+                <ScalarProperty Name="Password" ColumnName="Password" />
+                <ScalarProperty Name="Login" ColumnName="Login" />
+                <ScalarProperty Name="Id_acc" ColumnName="Id_acc" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Pictures">
+            <EntityTypeMapping TypeName="VistavkiModel.Picture">
+              <MappingFragment StoreEntitySet="Picture">
+                <ScalarProperty Name="Image" ColumnName="Image" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="Artist_id" ColumnName="Artist_id" />
+                <ScalarProperty Name="Exhibition_id" ColumnName="Exhibition_id" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Id_pic" ColumnName="Id_pic" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <FunctionImportMapping FunctionImportName="Insert_User" FunctionName="Хранилище VistavkiModel.Insert_User" />
+          <FunctionImportMapping FunctionImportName="Auth_User" FunctionName="Хранилище VistavkiModel.Auth_User">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="VistavkiModel.Auth_User_Result">
+                <ScalarProperty Name="Login" ColumnName="Login" />
+                <ScalarProperty Name="Password" ColumnName="Password" />
+                <ScalarProperty Name="Role" ColumnName="Role" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="CountPic" FunctionName="Хранилище VistavkiModel.CountPic" />
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Нет" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
