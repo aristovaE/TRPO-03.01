@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище VistavkiModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Account">
+    <Key>
+      <PropertyRef Name="Id_acc" />
+    </Key>
+    <Property Name="Id_acc" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Login" Type="nvarchar" MaxLength="20" />
+    <Property Name="Password" Type="nvarchar" MaxLength="20" />
+    <Property Name="Role" Type="nvarchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="Artist">
+    <Key>
+      <PropertyRef Name="Id_artist" />
+    </Key>
+    <Property Name="Id_artist" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FirstName" Type="nvarchar" MaxLength="20" />
+    <Property Name="SecondName" Type="nvarchar" MaxLength="20" />
+    <Property Name="PhoneNumber" Type="nvarchar" MaxLength="16" />
+  </EntityType>
+  <EntityType Name="Exhibition">
+    <Key>
+      <PropertyRef Name="Id_exhibition" />
+    </Key>
+    <Property Name="Id_exhibition" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="30" />
+    <Property Name="ThemeOf" Type="nvarchar" MaxLength="40" />
+    <Property Name="Address" Type="nvarchar" MaxLength="40" />
+    <Property Name="Price" Type="money" />
+    <Property Name="Date_Open" Type="date" />
+    <Property Name="Date_Close" Type="date" />
+    <Property Name="Status_id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Picture">
+    <Key>
+      <PropertyRef Name="Id_pic" />
+    </Key>
+    <Property Name="Id_pic" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="30" />
+    <Property Name="Exhibition_id" Type="int" Nullable="false" />
+    <Property Name="Artist_id" Type="int" Nullable="false" />
+    <Property Name="Description" Type="nvarchar" MaxLength="50" />
+    <Property Name="Image" Type="image" />
+  </EntityType>
+  <EntityType Name="Status">
+    <Key>
+      <PropertyRef Name="Id_status" />
+    </Key>
+    <Property Name="Id_status" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="20" />
+  </EntityType>
+  <Association Name="FK_Artist_ToTable">
+    <End Role="Artist" Type="Self.Artist" Multiplicity="1" />
+    <End Role="Picture" Type="Self.Picture" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Artist">
+        <PropertyRef Name="Id_artist" />
+      </Principal>
+      <Dependent Role="Picture">
+        <PropertyRef Name="Artist_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Exhibition_ToTable">
+    <End Role="Exhibition" Type="Self.Exhibition" Multiplicity="1" />
+    <End Role="Picture" Type="Self.Picture" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Exhibition">
+        <PropertyRef Name="Id_exhibition" />
+      </Principal>
+      <Dependent Role="Picture">
+        <PropertyRef Name="Exhibition_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Status_ToTable">
+    <End Role="Status" Type="Self.Status" Multiplicity="1" />
+    <End Role="Exhibition" Type="Self.Exhibition" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Status">
+        <PropertyRef Name="Id_status" />
+      </Principal>
+      <Dependent Role="Exhibition">
+        <PropertyRef Name="Status_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="Auth_User" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Login" Type="nchar" Mode="In" />
+    <Parameter Name="Password" Type="nchar" Mode="In" />
+  </Function>
+  <Function Name="CountPic" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Id_artist" Type="int" Mode="In" />
+  </Function>
+  <Function Name="Insert_User" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Log" Type="nvarchar" Mode="In" />
+    <Parameter Name="Password" Type="nvarchar" Mode="In" />
+    <Parameter Name="Role" Type="nvarchar" Mode="In" />
+    <Parameter Name="Name" Type="nvarchar" Mode="In" />
+    <Parameter Name="Phone" Type="nvarchar" Mode="In" />
+  </Function>
+  <EntityContainer Name="Хранилище VistavkiModelContainer">
+    <EntitySet Name="Account" EntityType="Self.Account" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Artist" EntityType="Self.Artist" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Exhibition" EntityType="Self.Exhibition" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Picture" EntityType="Self.Picture" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Status" EntityType="Self.Status" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Artist_ToTable" Association="Self.FK_Artist_ToTable">
+      <End Role="Artist" EntitySet="Artist" />
+      <End Role="Picture" EntitySet="Picture" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Exhibition_ToTable" Association="Self.FK_Exhibition_ToTable">
+      <End Role="Exhibition" EntitySet="Exhibition" />
+      <End Role="Picture" EntitySet="Picture" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Status_ToTable" Association="Self.FK_Status_ToTable">
+      <End Role="Status" EntitySet="Status" />
+      <End Role="Exhibition" EntitySet="Exhibition" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,822 @@
+H:\ТРПО\ContosoSite\ContosoSite\bin\ContosoSite.dll.config
+H:\ТРПО\ContosoSite\ContosoSite\bin\ContosoSite.dll
+H:\ТРПО\ContosoSite\ContosoSite\bin\ContosoSite.pdb
+H:\ТРПО\ContosoSite\ContosoSite\bin\Antlr3.Runtime.dll
+H:\ТРПО\ContosoSite\ContosoSite\bin\EntityFramework.dll
+H:\ТРПО\ContosoSite\ContosoSite\bin\EntityFramework.SqlServer.dll
+H:\ТРПО\ContosoSite\ContosoSite\bin\Microsoft.AspNet.Identity.Core.dll
+H:\ТРПО\ContosoSite\ContosoSite\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+H:\ТРПО\ContosoSite\ContosoSite\bin\Microsoft.AspNet.Identity.Owin.dll
+H:\ТРПО\ContosoSite\ContosoSite\bin\Microsoft.Owin.dll
+H:\ТРПО\ContosoSite\ContosoSite\bin\Microsoft.Owin.Host.SystemWeb.dll
+H:\ТРПО\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.Cookies.dll
+H:\ТРПО\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.dll
+H:\ТРПО\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.Facebook.dll
+H:\ТРПО\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.Google.dll
+H:\ТРПО\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+H:\ТРПО\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.OAuth.dll
+H:\ТРПО\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.Twitter.dll
+H:\ТРПО\ContosoSite\ContosoSite\bin\Microsoft.Web.Infrastructure.dll
+H:\ТРПО\ContosoSite\ContosoSite\bin\Newtonsoft.Json.dll
+H:\ТРПО\ContosoSite\ContosoSite\bin\Owin.dll
+H:\ТРПО\ContosoSite\ContosoSite\bin\System.Web.Helpers.dll
+H:\ТРПО\ContosoSite\ContosoSite\bin\System.Web.Mvc.dll
+H:\ТРПО\ContosoSite\ContosoSite\bin\System.Web.Optimization.dll
+H:\ТРПО\ContosoSite\ContosoSite\bin\System.Web.Razor.dll
+H:\ТРПО\ContosoSite\ContosoSite\bin\System.Web.WebPages.Deployment.dll
+H:\ТРПО\ContosoSite\ContosoSite\bin\System.Web.WebPages.dll
+H:\ТРПО\ContosoSite\ContosoSite\bin\System.Web.WebPages.Razor.dll
+H:\ТРПО\ContosoSite\ContosoSite\bin\WebGrease.dll
+H:\ТРПО\ContosoSite\ContosoSite\bin\System.Web.Helpers.xml
+H:\ТРПО\ContosoSite\ContosoSite\bin\System.Web.Mvc.xml
+H:\ТРПО\ContosoSite\ContosoSite\bin\System.Web.Optimization.xml
+H:\ТРПО\ContosoSite\ContosoSite\bin\System.Web.Razor.xml
+H:\ТРПО\ContosoSite\ContosoSite\bin\System.Web.WebPages.xml
+H:\ТРПО\ContosoSite\ContosoSite\bin\System.Web.WebPages.Deployment.xml
+H:\ТРПО\ContosoSite\ContosoSite\bin\System.Web.WebPages.Razor.xml
+H:\ТРПО\ContosoSite\ContosoSite\bin\Antlr3.Runtime.pdb
+H:\ТРПО\ContosoSite\ContosoSite\bin\Newtonsoft.Json.xml
+H:\ТРПО\ContosoSite\ContosoSite\bin\EntityFramework.xml
+H:\ТРПО\ContosoSite\ContosoSite\bin\EntityFramework.SqlServer.xml
+H:\ТРПО\ContosoSite\ContosoSite\bin\Microsoft.AspNet.Identity.Core.xml
+H:\ТРПО\ContosoSite\ContosoSite\bin\Microsoft.AspNet.Identity.Owin.xml
+H:\ТРПО\ContosoSite\ContosoSite\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+H:\ТРПО\ContosoSite\ContosoSite\bin\Microsoft.Owin.xml
+H:\ТРПО\ContosoSite\ContosoSite\bin\Microsoft.Owin.Host.SystemWeb.xml
+H:\ТРПО\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.xml
+H:\ТРПО\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.Facebook.xml
+H:\ТРПО\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.Cookies.xml
+H:\ТРПО\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.OAuth.xml
+H:\ТРПО\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.Google.xml
+H:\ТРПО\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.Twitter.xml
+H:\ТРПО\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+H:\ТРПО\ContosoSite\ContosoSite\bin\ru\System.Web.Helpers.resources.dll
+H:\ТРПО\ContosoSite\ContosoSite\bin\ru\System.Web.Mvc.resources.dll
+H:\ТРПО\ContosoSite\ContosoSite\bin\ru\System.Web.Optimization.resources.dll
+H:\ТРПО\ContosoSite\ContosoSite\bin\ru\System.Web.Razor.resources.dll
+H:\ТРПО\ContosoSite\ContosoSite\bin\ru\System.Web.WebPages.resources.dll
+H:\ТРПО\ContosoSite\ContosoSite\bin\ru\System.Web.WebPages.Deployment.resources.dll
+H:\ТРПО\ContosoSite\ContosoSite\bin\ru\System.Web.WebPages.Razor.resources.dll
+H:\ТРПО\ContosoSite\ContosoSite\bin\ru\EntityFramework.resources.dll
+H:\ТРПО\ContosoSite\ContosoSite\bin\ru\EntityFramework.SqlServer.resources.dll
+H:\ТРПО\ContosoSite\ContosoSite\bin\ru\Microsoft.AspNet.Identity.Core.resources.dll
+H:\ТРПО\ContosoSite\ContosoSite\bin\ru\Microsoft.AspNet.Identity.Owin.resources.dll
+H:\ТРПО\ContosoSite\ContosoSite\bin\ru\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+H:\ТРПО\ContosoSite\ContosoSite\bin\ru\Microsoft.Owin.resources.dll
+H:\ТРПО\ContosoSite\ContosoSite\bin\ru\Microsoft.Owin.Host.SystemWeb.resources.dll
+H:\ТРПО\ContosoSite\ContosoSite\bin\ru\Microsoft.Owin.Security.resources.dll
+H:\ТРПО\ContosoSite\ContosoSite\bin\ru\Microsoft.Owin.Security.Facebook.resources.dll
+H:\ТРПО\ContosoSite\ContosoSite\bin\ru\Microsoft.Owin.Security.Google.resources.dll
+H:\ТРПО\ContosoSite\ContosoSite\bin\ru\Microsoft.Owin.Security.Twitter.resources.dll
+H:\ТРПО\ContosoSite\ContosoSite\bin\ru\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+H:\ТРПО\ContosoSite\ContosoSite\obj\Debug\ContosoSite.dll
+H:\ТРПО\ContosoSite\ContosoSite\obj\Debug\ContosoSite.pdb
+H:\ТРПО\бэкап\доделатьпоиск\ContosoSite\ContosoSite\bin\ContosoSite.dll.config
+H:\ТРПО\бэкап\доделатьпоиск\ContosoSite\ContosoSite\bin\ContosoSite.dll
+H:\ТРПО\бэкап\доделатьпоиск\ContosoSite\ContosoSite\bin\ContosoSite.pdb
+H:\ТРПО\бэкап\доделатьпоиск\ContosoSite\ContosoSite\bin\Antlr3.Runtime.dll
+H:\ТРПО\бэкап\доделатьпоиск\ContosoSite\ContosoSite\bin\EntityFramework.dll
+H:\ТРПО\бэкап\доделатьпоиск\ContosoSite\ContosoSite\bin\EntityFramework.SqlServer.dll
+H:\ТРПО\бэкап\доделатьпоиск\ContosoSite\ContosoSite\bin\Microsoft.AspNet.Identity.Core.dll
+H:\ТРПО\бэкап\доделатьпоиск\ContosoSite\ContosoSite\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+H:\ТРПО\бэкап\доделатьпоиск\ContosoSite\ContosoSite\bin\Microsoft.AspNet.Identity.Owin.dll
+H:\ТРПО\бэкап\доделатьпоиск\ContosoSite\ContosoSite\bin\Microsoft.Owin.dll
+H:\ТРПО\бэкап\доделатьпоиск\ContosoSite\ContosoSite\bin\Microsoft.Owin.Host.SystemWeb.dll
+H:\ТРПО\бэкап\доделатьпоиск\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.Cookies.dll
+H:\ТРПО\бэкап\доделатьпоиск\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.dll
+H:\ТРПО\бэкап\доделатьпоиск\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.Facebook.dll
+H:\ТРПО\бэкап\доделатьпоиск\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.Google.dll
+H:\ТРПО\бэкап\доделатьпоиск\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+H:\ТРПО\бэкап\доделатьпоиск\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.OAuth.dll
+H:\ТРПО\бэкап\доделатьпоиск\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.Twitter.dll
+H:\ТРПО\бэкап\доделатьпоиск\ContosoSite\ContosoSite\bin\Microsoft.Web.Infrastructure.dll
+H:\ТРПО\бэкап\доделатьпоиск\ContosoSite\ContosoSite\bin\Newtonsoft.Json.dll
+H:\ТРПО\бэкап\доделатьпоиск\ContosoSite\ContosoSite\bin\Owin.dll
+H:\ТРПО\бэкап\доделатьпоиск\ContosoSite\ContosoSite\bin\System.Web.Helpers.dll
+H:\ТРПО\бэкап\доделатьпоиск\ContosoSite\ContosoSite\bin\System.Web.Mvc.dll
+H:\ТРПО\бэкап\доделатьпоиск\ContosoSite\ContosoSite\bin\System.Web.Optimization.dll
+H:\ТРПО\бэкап\доделатьпоиск\ContosoSite\ContosoSite\bin\System.Web.Razor.dll
+H:\ТРПО\бэкап\доделатьпоиск\ContosoSite\ContosoSite\bin\System.Web.WebPages.Deployment.dll
+H:\ТРПО\бэкап\доделатьпоиск\ContosoSite\ContosoSite\bin\System.Web.WebPages.dll
+H:\ТРПО\бэкап\доделатьпоиск\ContosoSite\ContosoSite\bin\System.Web.WebPages.Razor.dll
+H:\ТРПО\бэкап\доделатьпоиск\ContosoSite\ContosoSite\bin\WebGrease.dll
+H:\ТРПО\бэкап\доделатьпоиск\ContosoSite\ContosoSite\bin\Microsoft.SqlServer.DTSRuntimeWrap.dll
+H:\ТРПО\бэкап\доделатьпоиск\ContosoSite\ContosoSite\bin\System.Web.Helpers.xml
+H:\ТРПО\бэкап\доделатьпоиск\ContosoSite\ContosoSite\bin\System.Web.Mvc.xml
+H:\ТРПО\бэкап\доделатьпоиск\ContosoSite\ContosoSite\bin\System.Web.Optimization.xml
+H:\ТРПО\бэкап\доделатьпоиск\ContosoSite\ContosoSite\bin\System.Web.Razor.xml
+H:\ТРПО\бэкап\доделатьпоиск\ContosoSite\ContosoSite\bin\System.Web.WebPages.xml
+H:\ТРПО\бэкап\доделатьпоиск\ContosoSite\ContosoSite\bin\System.Web.WebPages.Deployment.xml
+H:\ТРПО\бэкап\доделатьпоиск\ContosoSite\ContosoSite\bin\System.Web.WebPages.Razor.xml
+H:\ТРПО\бэкап\доделатьпоиск\ContosoSite\ContosoSite\bin\Antlr3.Runtime.pdb
+H:\ТРПО\бэкап\доделатьпоиск\ContosoSite\ContosoSite\bin\Newtonsoft.Json.xml
+H:\ТРПО\бэкап\доделатьпоиск\ContosoSite\ContosoSite\bin\EntityFramework.xml
+H:\ТРПО\бэкап\доделатьпоиск\ContosoSite\ContosoSite\bin\EntityFramework.SqlServer.xml
+H:\ТРПО\бэкап\доделатьпоиск\ContosoSite\ContosoSite\bin\Microsoft.AspNet.Identity.Core.xml
+H:\ТРПО\бэкап\доделатьпоиск\ContosoSite\ContosoSite\bin\Microsoft.AspNet.Identity.Owin.xml
+H:\ТРПО\бэкап\доделатьпоиск\ContosoSite\ContosoSite\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+H:\ТРПО\бэкап\доделатьпоиск\ContosoSite\ContosoSite\bin\Microsoft.Owin.xml
+H:\ТРПО\бэкап\доделатьпоиск\ContosoSite\ContosoSite\bin\Microsoft.Owin.Host.SystemWeb.xml
+H:\ТРПО\бэкап\доделатьпоиск\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.xml
+H:\ТРПО\бэкап\доделатьпоиск\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.Facebook.xml
+H:\ТРПО\бэкап\доделатьпоиск\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.Cookies.xml
+H:\ТРПО\бэкап\доделатьпоиск\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.OAuth.xml
+H:\ТРПО\бэкап\доделатьпоиск\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.Google.xml
+H:\ТРПО\бэкап\доделатьпоиск\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.Twitter.xml
+H:\ТРПО\бэкап\доделатьпоиск\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+H:\ТРПО\бэкап\доделатьпоиск\ContosoSite\ContosoSite\bin\ru\System.Web.Helpers.resources.dll
+H:\ТРПО\бэкап\доделатьпоиск\ContosoSite\ContosoSite\bin\ru\System.Web.Mvc.resources.dll
+H:\ТРПО\бэкап\доделатьпоиск\ContosoSite\ContosoSite\bin\ru\System.Web.Optimization.resources.dll
+H:\ТРПО\бэкап\доделатьпоиск\ContosoSite\ContosoSite\bin\ru\System.Web.Razor.resources.dll
+H:\ТРПО\бэкап\доделатьпоиск\ContosoSite\ContosoSite\bin\ru\System.Web.WebPages.resources.dll
+H:\ТРПО\бэкап\доделатьпоиск\ContosoSite\ContosoSite\bin\ru\System.Web.WebPages.Deployment.resources.dll
+H:\ТРПО\бэкап\доделатьпоиск\ContosoSite\ContosoSite\bin\ru\System.Web.WebPages.Razor.resources.dll
+H:\ТРПО\бэкап\доделатьпоиск\ContosoSite\ContosoSite\bin\ru\EntityFramework.resources.dll
+H:\ТРПО\бэкап\доделатьпоиск\ContosoSite\ContosoSite\bin\ru\EntityFramework.SqlServer.resources.dll
+H:\ТРПО\бэкап\доделатьпоиск\ContosoSite\ContosoSite\bin\ru\Microsoft.AspNet.Identity.Core.resources.dll
+H:\ТРПО\бэкап\доделатьпоиск\ContosoSite\ContosoSite\bin\ru\Microsoft.AspNet.Identity.Owin.resources.dll
+H:\ТРПО\бэкап\доделатьпоиск\ContosoSite\ContosoSite\bin\ru\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+H:\ТРПО\бэкап\доделатьпоиск\ContosoSite\ContosoSite\bin\ru\Microsoft.Owin.resources.dll
+H:\ТРПО\бэкап\доделатьпоиск\ContosoSite\ContosoSite\bin\ru\Microsoft.Owin.Host.SystemWeb.resources.dll
+H:\ТРПО\бэкап\доделатьпоиск\ContosoSite\ContosoSite\bin\ru\Microsoft.Owin.Security.resources.dll
+H:\ТРПО\бэкап\доделатьпоиск\ContosoSite\ContosoSite\bin\ru\Microsoft.Owin.Security.Facebook.resources.dll
+H:\ТРПО\бэкап\доделатьпоиск\ContosoSite\ContosoSite\bin\ru\Microsoft.Owin.Security.Google.resources.dll
+H:\ТРПО\бэкап\доделатьпоиск\ContosoSite\ContosoSite\bin\ru\Microsoft.Owin.Security.Twitter.resources.dll
+H:\ТРПО\бэкап\доделатьпоиск\ContosoSite\ContosoSite\bin\ru\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+H:\ТРПО\бэкап\доделатьпоиск\ContosoSite\ContosoSite\obj\Debug\ContosoSite.csprojResolveAssemblyReference.cache
+H:\ТРПО\бэкап\доделатьпоиск\ContosoSite\ContosoSite\obj\Debug\ContosoSite.dll
+H:\ТРПО\бэкап\доделатьпоиск\ContosoSite\ContosoSite\obj\Debug\ContosoSite.pdb
+H:\ТРПО\бэкап\есть поиск и переход!!!!!!\ContosoSite\ContosoSite\bin\ContosoSite.dll.config
+H:\ТРПО\бэкап\есть поиск и переход!!!!!!\ContosoSite\ContosoSite\bin\ContosoSite.dll
+H:\ТРПО\бэкап\есть поиск и переход!!!!!!\ContosoSite\ContosoSite\bin\ContosoSite.pdb
+H:\ТРПО\бэкап\есть поиск и переход!!!!!!\ContosoSite\ContosoSite\bin\Antlr3.Runtime.dll
+H:\ТРПО\бэкап\есть поиск и переход!!!!!!\ContosoSite\ContosoSite\bin\EntityFramework.dll
+H:\ТРПО\бэкап\есть поиск и переход!!!!!!\ContosoSite\ContosoSite\bin\EntityFramework.SqlServer.dll
+H:\ТРПО\бэкап\есть поиск и переход!!!!!!\ContosoSite\ContosoSite\bin\Microsoft.AspNet.Identity.Core.dll
+H:\ТРПО\бэкап\есть поиск и переход!!!!!!\ContosoSite\ContosoSite\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+H:\ТРПО\бэкап\есть поиск и переход!!!!!!\ContosoSite\ContosoSite\bin\Microsoft.AspNet.Identity.Owin.dll
+H:\ТРПО\бэкап\есть поиск и переход!!!!!!\ContosoSite\ContosoSite\bin\Microsoft.Owin.dll
+H:\ТРПО\бэкап\есть поиск и переход!!!!!!\ContosoSite\ContosoSite\bin\Microsoft.Owin.Host.SystemWeb.dll
+H:\ТРПО\бэкап\есть поиск и переход!!!!!!\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.Cookies.dll
+H:\ТРПО\бэкап\есть поиск и переход!!!!!!\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.dll
+H:\ТРПО\бэкап\есть поиск и переход!!!!!!\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.Facebook.dll
+H:\ТРПО\бэкап\есть поиск и переход!!!!!!\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.Google.dll
+H:\ТРПО\бэкап\есть поиск и переход!!!!!!\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+H:\ТРПО\бэкап\есть поиск и переход!!!!!!\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.OAuth.dll
+H:\ТРПО\бэкап\есть поиск и переход!!!!!!\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.Twitter.dll
+H:\ТРПО\бэкап\есть поиск и переход!!!!!!\ContosoSite\ContosoSite\bin\Microsoft.Web.Infrastructure.dll
+H:\ТРПО\бэкап\есть поиск и переход!!!!!!\ContosoSite\ContosoSite\bin\Newtonsoft.Json.dll
+H:\ТРПО\бэкап\есть поиск и переход!!!!!!\ContosoSite\ContosoSite\bin\Owin.dll
+H:\ТРПО\бэкап\есть поиск и переход!!!!!!\ContosoSite\ContosoSite\bin\System.Web.Helpers.dll
+H:\ТРПО\бэкап\есть поиск и переход!!!!!!\ContosoSite\ContosoSite\bin\System.Web.Mvc.dll
+H:\ТРПО\бэкап\есть поиск и переход!!!!!!\ContosoSite\ContosoSite\bin\System.Web.Optimization.dll
+H:\ТРПО\бэкап\есть поиск и переход!!!!!!\ContosoSite\ContosoSite\bin\System.Web.Razor.dll
+H:\ТРПО\бэкап\есть поиск и переход!!!!!!\ContosoSite\ContosoSite\bin\System.Web.WebPages.Deployment.dll
+H:\ТРПО\бэкап\есть поиск и переход!!!!!!\ContosoSite\ContosoSite\bin\System.Web.WebPages.dll
+H:\ТРПО\бэкап\есть поиск и переход!!!!!!\ContosoSite\ContosoSite\bin\System.Web.WebPages.Razor.dll
+H:\ТРПО\бэкап\есть поиск и переход!!!!!!\ContosoSite\ContosoSite\bin\WebGrease.dll
+H:\ТРПО\бэкап\есть поиск и переход!!!!!!\ContosoSite\ContosoSite\bin\Microsoft.SqlServer.DTSRuntimeWrap.dll
+H:\ТРПО\бэкап\есть поиск и переход!!!!!!\ContosoSite\ContosoSite\bin\System.Web.Helpers.xml
+H:\ТРПО\бэкап\есть поиск и переход!!!!!!\ContosoSite\ContosoSite\bin\System.Web.Mvc.xml
+H:\ТРПО\бэкап\есть поиск и переход!!!!!!\ContosoSite\ContosoSite\bin\System.Web.Optimization.xml
+H:\ТРПО\бэкап\есть поиск и переход!!!!!!\ContosoSite\ContosoSite\bin\System.Web.Razor.xml
+H:\ТРПО\бэкап\есть поиск и переход!!!!!!\ContosoSite\ContosoSite\bin\System.Web.WebPages.xml
+H:\ТРПО\бэкап\есть поиск и переход!!!!!!\ContosoSite\ContosoSite\bin\System.Web.WebPages.Deployment.xml
+H:\ТРПО\бэкап\есть поиск и переход!!!!!!\ContosoSite\ContosoSite\bin\System.Web.WebPages.Razor.xml
+H:\ТРПО\бэкап\есть поиск и переход!!!!!!\ContosoSite\ContosoSite\bin\Antlr3.Runtime.pdb
+H:\ТРПО\бэкап\есть поиск и переход!!!!!!\ContosoSite\ContosoSite\bin\Newtonsoft.Json.xml
+H:\ТРПО\бэкап\есть поиск и переход!!!!!!\ContosoSite\ContosoSite\bin\EntityFramework.xml
+H:\ТРПО\бэкап\есть поиск и переход!!!!!!\ContosoSite\ContosoSite\bin\EntityFramework.SqlServer.xml
+H:\ТРПО\бэкап\есть поиск и переход!!!!!!\ContosoSite\ContosoSite\bin\Microsoft.AspNet.Identity.Core.xml
+H:\ТРПО\бэкап\есть поиск и переход!!!!!!\ContosoSite\ContosoSite\bin\Microsoft.AspNet.Identity.Owin.xml
+H:\ТРПО\бэкап\есть поиск и переход!!!!!!\ContosoSite\ContosoSite\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+H:\ТРПО\бэкап\есть поиск и переход!!!!!!\ContosoSite\ContosoSite\bin\Microsoft.Owin.xml
+H:\ТРПО\бэкап\есть поиск и переход!!!!!!\ContosoSite\ContosoSite\bin\Microsoft.Owin.Host.SystemWeb.xml
+H:\ТРПО\бэкап\есть поиск и переход!!!!!!\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.xml
+H:\ТРПО\бэкап\есть поиск и переход!!!!!!\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.Facebook.xml
+H:\ТРПО\бэкап\есть поиск и переход!!!!!!\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.Cookies.xml
+H:\ТРПО\бэкап\есть поиск и переход!!!!!!\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.OAuth.xml
+H:\ТРПО\бэкап\есть поиск и переход!!!!!!\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.Google.xml
+H:\ТРПО\бэкап\есть поиск и переход!!!!!!\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.Twitter.xml
+H:\ТРПО\бэкап\есть поиск и переход!!!!!!\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+H:\ТРПО\бэкап\есть поиск и переход!!!!!!\ContosoSite\ContosoSite\bin\ru\System.Web.Helpers.resources.dll
+H:\ТРПО\бэкап\есть поиск и переход!!!!!!\ContosoSite\ContosoSite\bin\ru\System.Web.Mvc.resources.dll
+H:\ТРПО\бэкап\есть поиск и переход!!!!!!\ContosoSite\ContosoSite\bin\ru\System.Web.Optimization.resources.dll
+H:\ТРПО\бэкап\есть поиск и переход!!!!!!\ContosoSite\ContosoSite\bin\ru\System.Web.Razor.resources.dll
+H:\ТРПО\бэкап\есть поиск и переход!!!!!!\ContosoSite\ContosoSite\bin\ru\System.Web.WebPages.resources.dll
+H:\ТРПО\бэкап\есть поиск и переход!!!!!!\ContosoSite\ContosoSite\bin\ru\System.Web.WebPages.Deployment.resources.dll
+H:\ТРПО\бэкап\есть поиск и переход!!!!!!\ContosoSite\ContosoSite\bin\ru\System.Web.WebPages.Razor.resources.dll
+H:\ТРПО\бэкап\есть поиск и переход!!!!!!\ContosoSite\ContosoSite\bin\ru\EntityFramework.resources.dll
+H:\ТРПО\бэкап\есть поиск и переход!!!!!!\ContosoSite\ContosoSite\bin\ru\EntityFramework.SqlServer.resources.dll
+H:\ТРПО\бэкап\есть поиск и переход!!!!!!\ContosoSite\ContosoSite\bin\ru\Microsoft.AspNet.Identity.Core.resources.dll
+H:\ТРПО\бэкап\есть поиск и переход!!!!!!\ContosoSite\ContosoSite\bin\ru\Microsoft.AspNet.Identity.Owin.resources.dll
+H:\ТРПО\бэкап\есть поиск и переход!!!!!!\ContosoSite\ContosoSite\bin\ru\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+H:\ТРПО\бэкап\есть поиск и переход!!!!!!\ContosoSite\ContosoSite\bin\ru\Microsoft.Owin.resources.dll
+H:\ТРПО\бэкап\есть поиск и переход!!!!!!\ContosoSite\ContosoSite\bin\ru\Microsoft.Owin.Host.SystemWeb.resources.dll
+H:\ТРПО\бэкап\есть поиск и переход!!!!!!\ContosoSite\ContosoSite\bin\ru\Microsoft.Owin.Security.resources.dll
+H:\ТРПО\бэкап\есть поиск и переход!!!!!!\ContosoSite\ContosoSite\bin\ru\Microsoft.Owin.Security.Facebook.resources.dll
+H:\ТРПО\бэкап\есть поиск и переход!!!!!!\ContosoSite\ContosoSite\bin\ru\Microsoft.Owin.Security.Google.resources.dll
+H:\ТРПО\бэкап\есть поиск и переход!!!!!!\ContosoSite\ContosoSite\bin\ru\Microsoft.Owin.Security.Twitter.resources.dll
+H:\ТРПО\бэкап\есть поиск и переход!!!!!!\ContosoSite\ContosoSite\bin\ru\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+H:\ТРПО\бэкап\есть поиск и переход!!!!!!\ContosoSite\ContosoSite\obj\Debug\ContosoSite.dll
+H:\ТРПО\бэкап\есть поиск и переход!!!!!!\ContosoSite\ContosoSite\obj\Debug\ContosoSite.pdb
+H:\ТРПО\бэкап\детеилс+сломанная регистрация(процедура)\ContosoSite\ContosoSite\bin\ContosoSite.dll.config
+H:\ТРПО\бэкап\детеилс+сломанная регистрация(процедура)\ContosoSite\ContosoSite\bin\ContosoSite.dll
+H:\ТРПО\бэкап\детеилс+сломанная регистрация(процедура)\ContosoSite\ContosoSite\bin\ContosoSite.pdb
+H:\ТРПО\бэкап\детеилс+сломанная регистрация(процедура)\ContosoSite\ContosoSite\bin\Antlr3.Runtime.dll
+H:\ТРПО\бэкап\детеилс+сломанная регистрация(процедура)\ContosoSite\ContosoSite\bin\EntityFramework.dll
+H:\ТРПО\бэкап\детеилс+сломанная регистрация(процедура)\ContosoSite\ContosoSite\bin\EntityFramework.SqlServer.dll
+H:\ТРПО\бэкап\детеилс+сломанная регистрация(процедура)\ContosoSite\ContosoSite\bin\Microsoft.AspNet.Identity.Core.dll
+H:\ТРПО\бэкап\детеилс+сломанная регистрация(процедура)\ContosoSite\ContosoSite\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+H:\ТРПО\бэкап\детеилс+сломанная регистрация(процедура)\ContosoSite\ContosoSite\bin\Microsoft.AspNet.Identity.Owin.dll
+H:\ТРПО\бэкап\детеилс+сломанная регистрация(процедура)\ContosoSite\ContosoSite\bin\Microsoft.Owin.dll
+H:\ТРПО\бэкап\детеилс+сломанная регистрация(процедура)\ContosoSite\ContosoSite\bin\Microsoft.Owin.Host.SystemWeb.dll
+H:\ТРПО\бэкап\детеилс+сломанная регистрация(процедура)\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.Cookies.dll
+H:\ТРПО\бэкап\детеилс+сломанная регистрация(процедура)\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.dll
+H:\ТРПО\бэкап\детеилс+сломанная регистрация(процедура)\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.Facebook.dll
+H:\ТРПО\бэкап\детеилс+сломанная регистрация(процедура)\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.Google.dll
+H:\ТРПО\бэкап\детеилс+сломанная регистрация(процедура)\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+H:\ТРПО\бэкап\детеилс+сломанная регистрация(процедура)\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.OAuth.dll
+H:\ТРПО\бэкап\детеилс+сломанная регистрация(процедура)\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.Twitter.dll
+H:\ТРПО\бэкап\детеилс+сломанная регистрация(процедура)\ContosoSite\ContosoSite\bin\Microsoft.Web.Infrastructure.dll
+H:\ТРПО\бэкап\детеилс+сломанная регистрация(процедура)\ContosoSite\ContosoSite\bin\Newtonsoft.Json.dll
+H:\ТРПО\бэкап\детеилс+сломанная регистрация(процедура)\ContosoSite\ContosoSite\bin\Owin.dll
+H:\ТРПО\бэкап\детеилс+сломанная регистрация(процедура)\ContosoSite\ContosoSite\bin\System.Web.Helpers.dll
+H:\ТРПО\бэкап\детеилс+сломанная регистрация(процедура)\ContosoSite\ContosoSite\bin\System.Web.Mvc.dll
+H:\ТРПО\бэкап\детеилс+сломанная регистрация(процедура)\ContosoSite\ContosoSite\bin\System.Web.Optimization.dll
+H:\ТРПО\бэкап\детеилс+сломанная регистрация(процедура)\ContosoSite\ContosoSite\bin\System.Web.Razor.dll
+H:\ТРПО\бэкап\детеилс+сломанная регистрация(процедура)\ContosoSite\ContosoSite\bin\System.Web.WebPages.Deployment.dll
+H:\ТРПО\бэкап\детеилс+сломанная регистрация(процедура)\ContosoSite\ContosoSite\bin\System.Web.WebPages.dll
+H:\ТРПО\бэкап\детеилс+сломанная регистрация(процедура)\ContosoSite\ContosoSite\bin\System.Web.WebPages.Razor.dll
+H:\ТРПО\бэкап\детеилс+сломанная регистрация(процедура)\ContosoSite\ContosoSite\bin\WebGrease.dll
+H:\ТРПО\бэкап\детеилс+сломанная регистрация(процедура)\ContosoSite\ContosoSite\bin\Microsoft.SqlServer.DTSRuntimeWrap.dll
+H:\ТРПО\бэкап\детеилс+сломанная регистрация(процедура)\ContosoSite\ContosoSite\bin\System.Web.Helpers.xml
+H:\ТРПО\бэкап\детеилс+сломанная регистрация(процедура)\ContosoSite\ContosoSite\bin\System.Web.Mvc.xml
+H:\ТРПО\бэкап\детеилс+сломанная регистрация(процедура)\ContosoSite\ContosoSite\bin\System.Web.Optimization.xml
+H:\ТРПО\бэкап\детеилс+сломанная регистрация(процедура)\ContosoSite\ContosoSite\bin\System.Web.Razor.xml
+H:\ТРПО\бэкап\детеилс+сломанная регистрация(процедура)\ContosoSite\ContosoSite\bin\System.Web.WebPages.xml
+H:\ТРПО\бэкап\детеилс+сломанная регистрация(процедура)\ContosoSite\ContosoSite\bin\System.Web.WebPages.Deployment.xml
+H:\ТРПО\бэкап\детеилс+сломанная регистрация(процедура)\ContosoSite\ContosoSite\bin\System.Web.WebPages.Razor.xml
+H:\ТРПО\бэкап\детеилс+сломанная регистрация(процедура)\ContosoSite\ContosoSite\bin\Antlr3.Runtime.pdb
+H:\ТРПО\бэкап\детеилс+сломанная регистрация(процедура)\ContosoSite\ContosoSite\bin\Newtonsoft.Json.xml
+H:\ТРПО\бэкап\детеилс+сломанная регистрация(процедура)\ContosoSite\ContosoSite\bin\EntityFramework.xml
+H:\ТРПО\бэкап\детеилс+сломанная регистрация(процедура)\ContosoSite\ContosoSite\bin\EntityFramework.SqlServer.xml
+H:\ТРПО\бэкап\детеилс+сломанная регистрация(процедура)\ContosoSite\ContosoSite\bin\Microsoft.AspNet.Identity.Core.xml
+H:\ТРПО\бэкап\детеилс+сломанная регистрация(процедура)\ContosoSite\ContosoSite\bin\Microsoft.AspNet.Identity.Owin.xml
+H:\ТРПО\бэкап\детеилс+сломанная регистрация(процедура)\ContosoSite\ContosoSite\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+H:\ТРПО\бэкап\детеилс+сломанная регистрация(процедура)\ContosoSite\ContosoSite\bin\Microsoft.Owin.xml
+H:\ТРПО\бэкап\детеилс+сломанная регистрация(процедура)\ContosoSite\ContosoSite\bin\Microsoft.Owin.Host.SystemWeb.xml
+H:\ТРПО\бэкап\детеилс+сломанная регистрация(процедура)\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.xml
+H:\ТРПО\бэкап\детеилс+сломанная регистрация(процедура)\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.Facebook.xml
+H:\ТРПО\бэкап\детеилс+сломанная регистрация(процедура)\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.Cookies.xml
+H:\ТРПО\бэкап\детеилс+сломанная регистрация(процедура)\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.OAuth.xml
+H:\ТРПО\бэкап\детеилс+сломанная регистрация(процедура)\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.Google.xml
+H:\ТРПО\бэкап\детеилс+сломанная регистрация(процедура)\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.Twitter.xml
+H:\ТРПО\бэкап\детеилс+сломанная регистрация(процедура)\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+H:\ТРПО\бэкап\детеилс+сломанная регистрация(процедура)\ContosoSite\ContosoSite\bin\ru\System.Web.Helpers.resources.dll
+H:\ТРПО\бэкап\детеилс+сломанная регистрация(процедура)\ContosoSite\ContosoSite\bin\ru\System.Web.Mvc.resources.dll
+H:\ТРПО\бэкап\детеилс+сломанная регистрация(процедура)\ContosoSite\ContosoSite\bin\ru\System.Web.Optimization.resources.dll
+H:\ТРПО\бэкап\детеилс+сломанная регистрация(процедура)\ContosoSite\ContosoSite\bin\ru\System.Web.Razor.resources.dll
+H:\ТРПО\бэкап\детеилс+сломанная регистрация(процедура)\ContosoSite\ContosoSite\bin\ru\System.Web.WebPages.resources.dll
+H:\ТРПО\бэкап\детеилс+сломанная регистрация(процедура)\ContosoSite\ContosoSite\bin\ru\System.Web.WebPages.Deployment.resources.dll
+H:\ТРПО\бэкап\детеилс+сломанная регистрация(процедура)\ContosoSite\ContosoSite\bin\ru\System.Web.WebPages.Razor.resources.dll
+H:\ТРПО\бэкап\детеилс+сломанная регистрация(процедура)\ContosoSite\ContosoSite\bin\ru\EntityFramework.resources.dll
+H:\ТРПО\бэкап\детеилс+сломанная регистрация(процедура)\ContosoSite\ContosoSite\bin\ru\EntityFramework.SqlServer.resources.dll
+H:\ТРПО\бэкап\детеилс+сломанная регистрация(процедура)\ContosoSite\ContosoSite\bin\ru\Microsoft.AspNet.Identity.Core.resources.dll
+H:\ТРПО\бэкап\детеилс+сломанная регистрация(процедура)\ContosoSite\ContosoSite\bin\ru\Microsoft.AspNet.Identity.Owin.resources.dll
+H:\ТРПО\бэкап\детеилс+сломанная регистрация(процедура)\ContosoSite\ContosoSite\bin\ru\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+H:\ТРПО\бэкап\детеилс+сломанная регистрация(процедура)\ContosoSite\ContosoSite\bin\ru\Microsoft.Owin.resources.dll
+H:\ТРПО\бэкап\детеилс+сломанная регистрация(процедура)\ContosoSite\ContosoSite\bin\ru\Microsoft.Owin.Host.SystemWeb.resources.dll
+H:\ТРПО\бэкап\детеилс+сломанная регистрация(процедура)\ContosoSite\ContosoSite\bin\ru\Microsoft.Owin.Security.resources.dll
+H:\ТРПО\бэкап\детеилс+сломанная регистрация(процедура)\ContosoSite\ContosoSite\bin\ru\Microsoft.Owin.Security.Facebook.resources.dll
+H:\ТРПО\бэкап\детеилс+сломанная регистрация(процедура)\ContosoSite\ContosoSite\bin\ru\Microsoft.Owin.Security.Google.resources.dll
+H:\ТРПО\бэкап\детеилс+сломанная регистрация(процедура)\ContosoSite\ContosoSite\bin\ru\Microsoft.Owin.Security.Twitter.resources.dll
+H:\ТРПО\бэкап\детеилс+сломанная регистрация(процедура)\ContosoSite\ContosoSite\bin\ru\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+H:\ТРПО\бэкап\детеилс+сломанная регистрация(процедура)\ContosoSite\ContosoSite\obj\Debug\ContosoSite.csprojResolveAssemblyReference.cache
+H:\ТРПО\бэкап\детеилс+сломанная регистрация(процедура)\ContosoSite\ContosoSite\obj\Debug\ContosoSite.dll
+H:\ТРПО\бэкап\детеилс+сломанная регистрация(процедура)\ContosoSite\ContosoSite\obj\Debug\ContosoSite.pdb
+H:\ТРПО\бэкап\детеилс+регистрация\ContosoSite\ContosoSite\bin\ContosoSite.dll.config
+H:\ТРПО\бэкап\детеилс+регистрация\ContosoSite\ContosoSite\bin\ContosoSite.dll
+H:\ТРПО\бэкап\детеилс+регистрация\ContosoSite\ContosoSite\bin\ContosoSite.pdb
+H:\ТРПО\бэкап\детеилс+регистрация\ContosoSite\ContosoSite\bin\Antlr3.Runtime.dll
+H:\ТРПО\бэкап\детеилс+регистрация\ContosoSite\ContosoSite\bin\EntityFramework.dll
+H:\ТРПО\бэкап\детеилс+регистрация\ContosoSite\ContosoSite\bin\EntityFramework.SqlServer.dll
+H:\ТРПО\бэкап\детеилс+регистрация\ContosoSite\ContosoSite\bin\Microsoft.AspNet.Identity.Core.dll
+H:\ТРПО\бэкап\детеилс+регистрация\ContosoSite\ContosoSite\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+H:\ТРПО\бэкап\детеилс+регистрация\ContosoSite\ContosoSite\bin\Microsoft.AspNet.Identity.Owin.dll
+H:\ТРПО\бэкап\детеилс+регистрация\ContosoSite\ContosoSite\bin\Microsoft.Owin.dll
+H:\ТРПО\бэкап\детеилс+регистрация\ContosoSite\ContosoSite\bin\Microsoft.Owin.Host.SystemWeb.dll
+H:\ТРПО\бэкап\детеилс+регистрация\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.Cookies.dll
+H:\ТРПО\бэкап\детеилс+регистрация\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.dll
+H:\ТРПО\бэкап\детеилс+регистрация\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.Facebook.dll
+H:\ТРПО\бэкап\детеилс+регистрация\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.Google.dll
+H:\ТРПО\бэкап\детеилс+регистрация\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+H:\ТРПО\бэкап\детеилс+регистрация\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.OAuth.dll
+H:\ТРПО\бэкап\детеилс+регистрация\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.Twitter.dll
+H:\ТРПО\бэкап\детеилс+регистрация\ContosoSite\ContosoSite\bin\Microsoft.Web.Infrastructure.dll
+H:\ТРПО\бэкап\детеилс+регистрация\ContosoSite\ContosoSite\bin\Newtonsoft.Json.dll
+H:\ТРПО\бэкап\детеилс+регистрация\ContosoSite\ContosoSite\bin\Owin.dll
+H:\ТРПО\бэкап\детеилс+регистрация\ContosoSite\ContosoSite\bin\System.Web.Helpers.dll
+H:\ТРПО\бэкап\детеилс+регистрация\ContosoSite\ContosoSite\bin\System.Web.Mvc.dll
+H:\ТРПО\бэкап\детеилс+регистрация\ContosoSite\ContosoSite\bin\System.Web.Optimization.dll
+H:\ТРПО\бэкап\детеилс+регистрация\ContosoSite\ContosoSite\bin\System.Web.Razor.dll
+H:\ТРПО\бэкап\детеилс+регистрация\ContosoSite\ContosoSite\bin\System.Web.WebPages.Deployment.dll
+H:\ТРПО\бэкап\детеилс+регистрация\ContosoSite\ContosoSite\bin\System.Web.WebPages.dll
+H:\ТРПО\бэкап\детеилс+регистрация\ContosoSite\ContosoSite\bin\System.Web.WebPages.Razor.dll
+H:\ТРПО\бэкап\детеилс+регистрация\ContosoSite\ContosoSite\bin\WebGrease.dll
+H:\ТРПО\бэкап\детеилс+регистрация\ContosoSite\ContosoSite\bin\Microsoft.SqlServer.DTSRuntimeWrap.dll
+H:\ТРПО\бэкап\детеилс+регистрация\ContosoSite\ContosoSite\bin\System.Web.Helpers.xml
+H:\ТРПО\бэкап\детеилс+регистрация\ContosoSite\ContosoSite\bin\System.Web.Mvc.xml
+H:\ТРПО\бэкап\детеилс+регистрация\ContosoSite\ContosoSite\bin\System.Web.Optimization.xml
+H:\ТРПО\бэкап\детеилс+регистрация\ContosoSite\ContosoSite\bin\System.Web.Razor.xml
+H:\ТРПО\бэкап\детеилс+регистрация\ContosoSite\ContosoSite\bin\System.Web.WebPages.xml
+H:\ТРПО\бэкап\детеилс+регистрация\ContosoSite\ContosoSite\bin\System.Web.WebPages.Deployment.xml
+H:\ТРПО\бэкап\детеилс+регистрация\ContosoSite\ContosoSite\bin\System.Web.WebPages.Razor.xml
+H:\ТРПО\бэкап\детеилс+регистрация\ContosoSite\ContosoSite\bin\Antlr3.Runtime.pdb
+H:\ТРПО\бэкап\детеилс+регистрация\ContosoSite\ContosoSite\bin\Newtonsoft.Json.xml
+H:\ТРПО\бэкап\детеилс+регистрация\ContosoSite\ContosoSite\bin\EntityFramework.xml
+H:\ТРПО\бэкап\детеилс+регистрация\ContosoSite\ContosoSite\bin\EntityFramework.SqlServer.xml
+H:\ТРПО\бэкап\детеилс+регистрация\ContosoSite\ContosoSite\bin\Microsoft.AspNet.Identity.Core.xml
+H:\ТРПО\бэкап\детеилс+регистрация\ContosoSite\ContosoSite\bin\Microsoft.AspNet.Identity.Owin.xml
+H:\ТРПО\бэкап\детеилс+регистрация\ContosoSite\ContosoSite\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+H:\ТРПО\бэкап\детеилс+регистрация\ContosoSite\ContosoSite\bin\Microsoft.Owin.xml
+H:\ТРПО\бэкап\детеилс+регистрация\ContosoSite\ContosoSite\bin\Microsoft.Owin.Host.SystemWeb.xml
+H:\ТРПО\бэкап\детеилс+регистрация\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.xml
+H:\ТРПО\бэкап\детеилс+регистрация\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.Facebook.xml
+H:\ТРПО\бэкап\детеилс+регистрация\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.Cookies.xml
+H:\ТРПО\бэкап\детеилс+регистрация\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.OAuth.xml
+H:\ТРПО\бэкап\детеилс+регистрация\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.Google.xml
+H:\ТРПО\бэкап\детеилс+регистрация\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.Twitter.xml
+H:\ТРПО\бэкап\детеилс+регистрация\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+H:\ТРПО\бэкап\детеилс+регистрация\ContosoSite\ContosoSite\bin\ru\System.Web.Helpers.resources.dll
+H:\ТРПО\бэкап\детеилс+регистрация\ContosoSite\ContosoSite\bin\ru\System.Web.Mvc.resources.dll
+H:\ТРПО\бэкап\детеилс+регистрация\ContosoSite\ContosoSite\bin\ru\System.Web.Optimization.resources.dll
+H:\ТРПО\бэкап\детеилс+регистрация\ContosoSite\ContosoSite\bin\ru\System.Web.Razor.resources.dll
+H:\ТРПО\бэкап\детеилс+регистрация\ContosoSite\ContosoSite\bin\ru\System.Web.WebPages.resources.dll
+H:\ТРПО\бэкап\детеилс+регистрация\ContosoSite\ContosoSite\bin\ru\System.Web.WebPages.Deployment.resources.dll
+H:\ТРПО\бэкап\детеилс+регистрация\ContosoSite\ContosoSite\bin\ru\System.Web.WebPages.Razor.resources.dll
+H:\ТРПО\бэкап\детеилс+регистрация\ContosoSite\ContosoSite\bin\ru\EntityFramework.resources.dll
+H:\ТРПО\бэкап\детеилс+регистрация\ContosoSite\ContosoSite\bin\ru\EntityFramework.SqlServer.resources.dll
+H:\ТРПО\бэкап\детеилс+регистрация\ContosoSite\ContosoSite\bin\ru\Microsoft.AspNet.Identity.Core.resources.dll
+H:\ТРПО\бэкап\детеилс+регистрация\ContosoSite\ContosoSite\bin\ru\Microsoft.AspNet.Identity.Owin.resources.dll
+H:\ТРПО\бэкап\детеилс+регистрация\ContosoSite\ContosoSite\bin\ru\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+H:\ТРПО\бэкап\детеилс+регистрация\ContosoSite\ContosoSite\bin\ru\Microsoft.Owin.resources.dll
+H:\ТРПО\бэкап\детеилс+регистрация\ContosoSite\ContosoSite\bin\ru\Microsoft.Owin.Host.SystemWeb.resources.dll
+H:\ТРПО\бэкап\детеилс+регистрация\ContosoSite\ContosoSite\bin\ru\Microsoft.Owin.Security.resources.dll
+H:\ТРПО\бэкап\детеилс+регистрация\ContosoSite\ContosoSite\bin\ru\Microsoft.Owin.Security.Facebook.resources.dll
+H:\ТРПО\бэкап\детеилс+регистрация\ContosoSite\ContosoSite\bin\ru\Microsoft.Owin.Security.Google.resources.dll
+H:\ТРПО\бэкап\детеилс+регистрация\ContosoSite\ContosoSite\bin\ru\Microsoft.Owin.Security.Twitter.resources.dll
+H:\ТРПО\бэкап\детеилс+регистрация\ContosoSite\ContosoSite\bin\ru\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+H:\ТРПО\бэкап\детеилс+регистрация\ContosoSite\ContosoSite\obj\Debug\ContosoSite.csprojResolveAssemblyReference.cache
+H:\ТРПО\бэкап\детеилс+регистрация\ContosoSite\ContosoSite\obj\Debug\ContosoSite.dll
+H:\ТРПО\бэкап\детеилс+регистрация\ContosoSite\ContosoSite\obj\Debug\ContosoSite.pdb
+H:\ТРПО\бэкап\ннннн\ContosoSite\ContosoSite\bin\ContosoSite.dll.config
+H:\ТРПО\бэкап\ннннн\ContosoSite\ContosoSite\bin\ContosoSite.dll
+H:\ТРПО\бэкап\ннннн\ContosoSite\ContosoSite\bin\ContosoSite.pdb
+H:\ТРПО\бэкап\ннннн\ContosoSite\ContosoSite\bin\Antlr3.Runtime.dll
+H:\ТРПО\бэкап\ннннн\ContosoSite\ContosoSite\bin\EntityFramework.dll
+H:\ТРПО\бэкап\ннннн\ContosoSite\ContosoSite\bin\EntityFramework.SqlServer.dll
+H:\ТРПО\бэкап\ннннн\ContosoSite\ContosoSite\bin\Microsoft.AspNet.Identity.Core.dll
+H:\ТРПО\бэкап\ннннн\ContosoSite\ContosoSite\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+H:\ТРПО\бэкап\ннннн\ContosoSite\ContosoSite\bin\Microsoft.AspNet.Identity.Owin.dll
+H:\ТРПО\бэкап\ннннн\ContosoSite\ContosoSite\bin\Microsoft.Owin.dll
+H:\ТРПО\бэкап\ннннн\ContosoSite\ContosoSite\bin\Microsoft.Owin.Host.SystemWeb.dll
+H:\ТРПО\бэкап\ннннн\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.Cookies.dll
+H:\ТРПО\бэкап\ннннн\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.dll
+H:\ТРПО\бэкап\ннннн\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.Facebook.dll
+H:\ТРПО\бэкап\ннннн\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.Google.dll
+H:\ТРПО\бэкап\ннннн\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+H:\ТРПО\бэкап\ннннн\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.OAuth.dll
+H:\ТРПО\бэкап\ннннн\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.Twitter.dll
+H:\ТРПО\бэкап\ннннн\ContosoSite\ContosoSite\bin\Microsoft.Web.Infrastructure.dll
+H:\ТРПО\бэкап\ннннн\ContosoSite\ContosoSite\bin\Newtonsoft.Json.dll
+H:\ТРПО\бэкап\ннннн\ContosoSite\ContosoSite\bin\Owin.dll
+H:\ТРПО\бэкап\ннннн\ContosoSite\ContosoSite\bin\System.Web.Helpers.dll
+H:\ТРПО\бэкап\ннннн\ContosoSite\ContosoSite\bin\System.Web.Mvc.dll
+H:\ТРПО\бэкап\ннннн\ContosoSite\ContosoSite\bin\System.Web.Optimization.dll
+H:\ТРПО\бэкап\ннннн\ContosoSite\ContosoSite\bin\System.Web.Razor.dll
+H:\ТРПО\бэкап\ннннн\ContosoSite\ContosoSite\bin\System.Web.WebPages.Deployment.dll
+H:\ТРПО\бэкап\ннннн\ContosoSite\ContosoSite\bin\System.Web.WebPages.dll
+H:\ТРПО\бэкап\ннннн\ContosoSite\ContosoSite\bin\System.Web.WebPages.Razor.dll
+H:\ТРПО\бэкап\ннннн\ContosoSite\ContosoSite\bin\WebGrease.dll
+H:\ТРПО\бэкап\ннннн\ContosoSite\ContosoSite\bin\Microsoft.SqlServer.DTSRuntimeWrap.dll
+H:\ТРПО\бэкап\ннннн\ContosoSite\ContosoSite\bin\System.Web.Helpers.xml
+H:\ТРПО\бэкап\ннннн\ContosoSite\ContosoSite\bin\System.Web.Mvc.xml
+H:\ТРПО\бэкап\ннннн\ContosoSite\ContosoSite\bin\System.Web.Optimization.xml
+H:\ТРПО\бэкап\ннннн\ContosoSite\ContosoSite\bin\System.Web.Razor.xml
+H:\ТРПО\бэкап\ннннн\ContosoSite\ContosoSite\bin\System.Web.WebPages.xml
+H:\ТРПО\бэкап\ннннн\ContosoSite\ContosoSite\bin\System.Web.WebPages.Deployment.xml
+H:\ТРПО\бэкап\ннннн\ContosoSite\ContosoSite\bin\System.Web.WebPages.Razor.xml
+H:\ТРПО\бэкап\ннннн\ContosoSite\ContosoSite\bin\Antlr3.Runtime.pdb
+H:\ТРПО\бэкап\ннннн\ContosoSite\ContosoSite\bin\Newtonsoft.Json.xml
+H:\ТРПО\бэкап\ннннн\ContosoSite\ContosoSite\bin\EntityFramework.xml
+H:\ТРПО\бэкап\ннннн\ContosoSite\ContosoSite\bin\EntityFramework.SqlServer.xml
+H:\ТРПО\бэкап\ннннн\ContosoSite\ContosoSite\bin\Microsoft.AspNet.Identity.Core.xml
+H:\ТРПО\бэкап\ннннн\ContosoSite\ContosoSite\bin\Microsoft.AspNet.Identity.Owin.xml
+H:\ТРПО\бэкап\ннннн\ContosoSite\ContosoSite\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+H:\ТРПО\бэкап\ннннн\ContosoSite\ContosoSite\bin\Microsoft.Owin.xml
+H:\ТРПО\бэкап\ннннн\ContosoSite\ContosoSite\bin\Microsoft.Owin.Host.SystemWeb.xml
+H:\ТРПО\бэкап\ннннн\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.xml
+H:\ТРПО\бэкап\ннннн\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.Facebook.xml
+H:\ТРПО\бэкап\ннннн\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.Cookies.xml
+H:\ТРПО\бэкап\ннннн\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.OAuth.xml
+H:\ТРПО\бэкап\ннннн\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.Google.xml
+H:\ТРПО\бэкап\ннннн\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.Twitter.xml
+H:\ТРПО\бэкап\ннннн\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+H:\ТРПО\бэкап\ннннн\ContosoSite\ContosoSite\bin\ru\System.Web.Helpers.resources.dll
+H:\ТРПО\бэкап\ннннн\ContosoSite\ContosoSite\bin\ru\System.Web.Mvc.resources.dll
+H:\ТРПО\бэкап\ннннн\ContosoSite\ContosoSite\bin\ru\System.Web.Optimization.resources.dll
+H:\ТРПО\бэкап\ннннн\ContosoSite\ContosoSite\bin\ru\System.Web.Razor.resources.dll
+H:\ТРПО\бэкап\ннннн\ContosoSite\ContosoSite\bin\ru\System.Web.WebPages.resources.dll
+H:\ТРПО\бэкап\ннннн\ContosoSite\ContosoSite\bin\ru\System.Web.WebPages.Deployment.resources.dll
+H:\ТРПО\бэкап\ннннн\ContosoSite\ContosoSite\bin\ru\System.Web.WebPages.Razor.resources.dll
+H:\ТРПО\бэкап\ннннн\ContosoSite\ContosoSite\bin\ru\EntityFramework.resources.dll
+H:\ТРПО\бэкап\ннннн\ContosoSite\ContosoSite\bin\ru\EntityFramework.SqlServer.resources.dll
+H:\ТРПО\бэкап\ннннн\ContosoSite\ContosoSite\bin\ru\Microsoft.AspNet.Identity.Core.resources.dll
+H:\ТРПО\бэкап\ннннн\ContosoSite\ContosoSite\bin\ru\Microsoft.AspNet.Identity.Owin.resources.dll
+H:\ТРПО\бэкап\ннннн\ContosoSite\ContosoSite\bin\ru\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+H:\ТРПО\бэкап\ннннн\ContosoSite\ContosoSite\bin\ru\Microsoft.Owin.resources.dll
+H:\ТРПО\бэкап\ннннн\ContosoSite\ContosoSite\bin\ru\Microsoft.Owin.Host.SystemWeb.resources.dll
+H:\ТРПО\бэкап\ннннн\ContosoSite\ContosoSite\bin\ru\Microsoft.Owin.Security.resources.dll
+H:\ТРПО\бэкап\ннннн\ContosoSite\ContosoSite\bin\ru\Microsoft.Owin.Security.Facebook.resources.dll
+H:\ТРПО\бэкап\ннннн\ContosoSite\ContosoSite\bin\ru\Microsoft.Owin.Security.Google.resources.dll
+H:\ТРПО\бэкап\ннннн\ContosoSite\ContosoSite\bin\ru\Microsoft.Owin.Security.Twitter.resources.dll
+H:\ТРПО\бэкап\ннннн\ContosoSite\ContosoSite\bin\ru\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+H:\ТРПО\бэкап\ннннн\ContosoSite\ContosoSite\obj\Debug\ContosoSite.csprojResolveAssemblyReference.cache
+H:\ТРПО\бэкап\ннннн\ContosoSite\ContosoSite\obj\Debug\ContosoSite.dll
+H:\ТРПО\бэкап\ннннн\ContosoSite\ContosoSite\obj\Debug\ContosoSite.pdb
+H:\ТРПО\бэкап\авторизация и роли!\ContosoSite\ContosoSite\bin\ContosoSite.dll.config
+H:\ТРПО\бэкап\авторизация и роли!\ContosoSite\ContosoSite\bin\ContosoSite.dll
+H:\ТРПО\бэкап\авторизация и роли!\ContosoSite\ContosoSite\bin\ContosoSite.pdb
+H:\ТРПО\бэкап\авторизация и роли!\ContosoSite\ContosoSite\bin\Antlr3.Runtime.dll
+H:\ТРПО\бэкап\авторизация и роли!\ContosoSite\ContosoSite\bin\EntityFramework.dll
+H:\ТРПО\бэкап\авторизация и роли!\ContosoSite\ContosoSite\bin\EntityFramework.SqlServer.dll
+H:\ТРПО\бэкап\авторизация и роли!\ContosoSite\ContosoSite\bin\Microsoft.AspNet.Identity.Core.dll
+H:\ТРПО\бэкап\авторизация и роли!\ContosoSite\ContosoSite\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+H:\ТРПО\бэкап\авторизация и роли!\ContosoSite\ContosoSite\bin\Microsoft.AspNet.Identity.Owin.dll
+H:\ТРПО\бэкап\авторизация и роли!\ContosoSite\ContosoSite\bin\Microsoft.Owin.dll
+H:\ТРПО\бэкап\авторизация и роли!\ContosoSite\ContosoSite\bin\Microsoft.Owin.Host.SystemWeb.dll
+H:\ТРПО\бэкап\авторизация и роли!\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.Cookies.dll
+H:\ТРПО\бэкап\авторизация и роли!\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.dll
+H:\ТРПО\бэкап\авторизация и роли!\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.Facebook.dll
+H:\ТРПО\бэкап\авторизация и роли!\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.Google.dll
+H:\ТРПО\бэкап\авторизация и роли!\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+H:\ТРПО\бэкап\авторизация и роли!\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.OAuth.dll
+H:\ТРПО\бэкап\авторизация и роли!\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.Twitter.dll
+H:\ТРПО\бэкап\авторизация и роли!\ContosoSite\ContosoSite\bin\Microsoft.Web.Infrastructure.dll
+H:\ТРПО\бэкап\авторизация и роли!\ContosoSite\ContosoSite\bin\Newtonsoft.Json.dll
+H:\ТРПО\бэкап\авторизация и роли!\ContosoSite\ContosoSite\bin\Owin.dll
+H:\ТРПО\бэкап\авторизация и роли!\ContosoSite\ContosoSite\bin\System.Web.Helpers.dll
+H:\ТРПО\бэкап\авторизация и роли!\ContosoSite\ContosoSite\bin\System.Web.Mvc.dll
+H:\ТРПО\бэкап\авторизация и роли!\ContosoSite\ContosoSite\bin\System.Web.Optimization.dll
+H:\ТРПО\бэкап\авторизация и роли!\ContosoSite\ContosoSite\bin\System.Web.Razor.dll
+H:\ТРПО\бэкап\авторизация и роли!\ContosoSite\ContosoSite\bin\System.Web.WebPages.Deployment.dll
+H:\ТРПО\бэкап\авторизация и роли!\ContosoSite\ContosoSite\bin\System.Web.WebPages.dll
+H:\ТРПО\бэкап\авторизация и роли!\ContosoSite\ContosoSite\bin\System.Web.WebPages.Razor.dll
+H:\ТРПО\бэкап\авторизация и роли!\ContosoSite\ContosoSite\bin\WebGrease.dll
+H:\ТРПО\бэкап\авторизация и роли!\ContosoSite\ContosoSite\bin\Microsoft.SqlServer.DTSRuntimeWrap.dll
+H:\ТРПО\бэкап\авторизация и роли!\ContosoSite\ContosoSite\bin\System.Web.Helpers.xml
+H:\ТРПО\бэкап\авторизация и роли!\ContosoSite\ContosoSite\bin\System.Web.Mvc.xml
+H:\ТРПО\бэкап\авторизация и роли!\ContosoSite\ContosoSite\bin\System.Web.Optimization.xml
+H:\ТРПО\бэкап\авторизация и роли!\ContosoSite\ContosoSite\bin\System.Web.Razor.xml
+H:\ТРПО\бэкап\авторизация и роли!\ContosoSite\ContosoSite\bin\System.Web.WebPages.xml
+H:\ТРПО\бэкап\авторизация и роли!\ContosoSite\ContosoSite\bin\System.Web.WebPages.Deployment.xml
+H:\ТРПО\бэкап\авторизация и роли!\ContosoSite\ContosoSite\bin\System.Web.WebPages.Razor.xml
+H:\ТРПО\бэкап\авторизация и роли!\ContosoSite\ContosoSite\bin\Antlr3.Runtime.pdb
+H:\ТРПО\бэкап\авторизация и роли!\ContosoSite\ContosoSite\bin\Newtonsoft.Json.xml
+H:\ТРПО\бэкап\авторизация и роли!\ContosoSite\ContosoSite\bin\EntityFramework.xml
+H:\ТРПО\бэкап\авторизация и роли!\ContosoSite\ContosoSite\bin\EntityFramework.SqlServer.xml
+H:\ТРПО\бэкап\авторизация и роли!\ContosoSite\ContosoSite\bin\Microsoft.AspNet.Identity.Core.xml
+H:\ТРПО\бэкап\авторизация и роли!\ContosoSite\ContosoSite\bin\Microsoft.AspNet.Identity.Owin.xml
+H:\ТРПО\бэкап\авторизация и роли!\ContosoSite\ContosoSite\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+H:\ТРПО\бэкап\авторизация и роли!\ContosoSite\ContosoSite\bin\Microsoft.Owin.xml
+H:\ТРПО\бэкап\авторизация и роли!\ContosoSite\ContosoSite\bin\Microsoft.Owin.Host.SystemWeb.xml
+H:\ТРПО\бэкап\авторизация и роли!\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.xml
+H:\ТРПО\бэкап\авторизация и роли!\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.Facebook.xml
+H:\ТРПО\бэкап\авторизация и роли!\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.Cookies.xml
+H:\ТРПО\бэкап\авторизация и роли!\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.OAuth.xml
+H:\ТРПО\бэкап\авторизация и роли!\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.Google.xml
+H:\ТРПО\бэкап\авторизация и роли!\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.Twitter.xml
+H:\ТРПО\бэкап\авторизация и роли!\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+H:\ТРПО\бэкап\авторизация и роли!\ContosoSite\ContosoSite\bin\ru\System.Web.Helpers.resources.dll
+H:\ТРПО\бэкап\авторизация и роли!\ContosoSite\ContosoSite\bin\ru\System.Web.Mvc.resources.dll
+H:\ТРПО\бэкап\авторизация и роли!\ContosoSite\ContosoSite\bin\ru\System.Web.Optimization.resources.dll
+H:\ТРПО\бэкап\авторизация и роли!\ContosoSite\ContosoSite\bin\ru\System.Web.Razor.resources.dll
+H:\ТРПО\бэкап\авторизация и роли!\ContosoSite\ContosoSite\bin\ru\System.Web.WebPages.resources.dll
+H:\ТРПО\бэкап\авторизация и роли!\ContosoSite\ContosoSite\bin\ru\System.Web.WebPages.Deployment.resources.dll
+H:\ТРПО\бэкап\авторизация и роли!\ContosoSite\ContosoSite\bin\ru\System.Web.WebPages.Razor.resources.dll
+H:\ТРПО\бэкап\авторизация и роли!\ContosoSite\ContosoSite\bin\ru\EntityFramework.resources.dll
+H:\ТРПО\бэкап\авторизация и роли!\ContosoSite\ContosoSite\bin\ru\EntityFramework.SqlServer.resources.dll
+H:\ТРПО\бэкап\авторизация и роли!\ContosoSite\ContosoSite\bin\ru\Microsoft.AspNet.Identity.Core.resources.dll
+H:\ТРПО\бэкап\авторизация и роли!\ContosoSite\ContosoSite\bin\ru\Microsoft.AspNet.Identity.Owin.resources.dll
+H:\ТРПО\бэкап\авторизация и роли!\ContosoSite\ContosoSite\bin\ru\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+H:\ТРПО\бэкап\авторизация и роли!\ContosoSite\ContosoSite\bin\ru\Microsoft.Owin.resources.dll
+H:\ТРПО\бэкап\авторизация и роли!\ContosoSite\ContosoSite\bin\ru\Microsoft.Owin.Host.SystemWeb.resources.dll
+H:\ТРПО\бэкап\авторизация и роли!\ContosoSite\ContosoSite\bin\ru\Microsoft.Owin.Security.resources.dll
+H:\ТРПО\бэкап\авторизация и роли!\ContosoSite\ContosoSite\bin\ru\Microsoft.Owin.Security.Facebook.resources.dll
+H:\ТРПО\бэкап\авторизация и роли!\ContosoSite\ContosoSite\bin\ru\Microsoft.Owin.Security.Google.resources.dll
+H:\ТРПО\бэкап\авторизация и роли!\ContosoSite\ContosoSite\bin\ru\Microsoft.Owin.Security.Twitter.resources.dll
+H:\ТРПО\бэкап\авторизация и роли!\ContosoSite\ContosoSite\bin\ru\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+H:\ТРПО\бэкап\авторизация и роли!\ContosoSite\ContosoSite\obj\Debug\ContosoSite.dll
+H:\ТРПО\бэкап\авторизация и роли!\ContosoSite\ContosoSite\obj\Debug\ContosoSite.pdb
+H:\ТРПО\бэкап\авторизация и роли!\ContosoSite\ContosoSite\obj\Debug\ContosoSite.csprojResolveAssemblyReference.cache
+H:\ТРПО\бэкап\авторизация и роли!css\ContosoSite\ContosoSite\bin\ContosoSite.dll.config
+H:\ТРПО\бэкап\авторизация и роли!css\ContosoSite\ContosoSite\bin\ContosoSite.dll
+H:\ТРПО\бэкап\авторизация и роли!css\ContosoSite\ContosoSite\bin\ContosoSite.pdb
+H:\ТРПО\бэкап\авторизация и роли!css\ContosoSite\ContosoSite\bin\Antlr3.Runtime.dll
+H:\ТРПО\бэкап\авторизация и роли!css\ContosoSite\ContosoSite\bin\EntityFramework.dll
+H:\ТРПО\бэкап\авторизация и роли!css\ContosoSite\ContosoSite\bin\EntityFramework.SqlServer.dll
+H:\ТРПО\бэкап\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.AspNet.Identity.Core.dll
+H:\ТРПО\бэкап\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+H:\ТРПО\бэкап\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.AspNet.Identity.Owin.dll
+H:\ТРПО\бэкап\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.Owin.dll
+H:\ТРПО\бэкап\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.Owin.Host.SystemWeb.dll
+H:\ТРПО\бэкап\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.Cookies.dll
+H:\ТРПО\бэкап\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.dll
+H:\ТРПО\бэкап\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.Facebook.dll
+H:\ТРПО\бэкап\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.Google.dll
+H:\ТРПО\бэкап\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+H:\ТРПО\бэкап\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.OAuth.dll
+H:\ТРПО\бэкап\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.Twitter.dll
+H:\ТРПО\бэкап\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.Web.Infrastructure.dll
+H:\ТРПО\бэкап\авторизация и роли!css\ContosoSite\ContosoSite\bin\Newtonsoft.Json.dll
+H:\ТРПО\бэкап\авторизация и роли!css\ContosoSite\ContosoSite\bin\Owin.dll
+H:\ТРПО\бэкап\авторизация и роли!css\ContosoSite\ContosoSite\bin\System.Web.Helpers.dll
+H:\ТРПО\бэкап\авторизация и роли!css\ContosoSite\ContosoSite\bin\System.Web.Mvc.dll
+H:\ТРПО\бэкап\авторизация и роли!css\ContosoSite\ContosoSite\bin\System.Web.Optimization.dll
+H:\ТРПО\бэкап\авторизация и роли!css\ContosoSite\ContosoSite\bin\System.Web.Razor.dll
+H:\ТРПО\бэкап\авторизация и роли!css\ContosoSite\ContosoSite\bin\System.Web.WebPages.Deployment.dll
+H:\ТРПО\бэкап\авторизация и роли!css\ContosoSite\ContosoSite\bin\System.Web.WebPages.dll
+H:\ТРПО\бэкап\авторизация и роли!css\ContosoSite\ContosoSite\bin\System.Web.WebPages.Razor.dll
+H:\ТРПО\бэкап\авторизация и роли!css\ContosoSite\ContosoSite\bin\WebGrease.dll
+H:\ТРПО\бэкап\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.SqlServer.DTSRuntimeWrap.dll
+H:\ТРПО\бэкап\авторизация и роли!css\ContosoSite\ContosoSite\bin\System.Web.Helpers.xml
+H:\ТРПО\бэкап\авторизация и роли!css\ContosoSite\ContosoSite\bin\System.Web.Mvc.xml
+H:\ТРПО\бэкап\авторизация и роли!css\ContosoSite\ContosoSite\bin\System.Web.Optimization.xml
+H:\ТРПО\бэкап\авторизация и роли!css\ContosoSite\ContosoSite\bin\System.Web.Razor.xml
+H:\ТРПО\бэкап\авторизация и роли!css\ContosoSite\ContosoSite\bin\System.Web.WebPages.xml
+H:\ТРПО\бэкап\авторизация и роли!css\ContosoSite\ContosoSite\bin\System.Web.WebPages.Deployment.xml
+H:\ТРПО\бэкап\авторизация и роли!css\ContosoSite\ContosoSite\bin\System.Web.WebPages.Razor.xml
+H:\ТРПО\бэкап\авторизация и роли!css\ContosoSite\ContosoSite\bin\Antlr3.Runtime.pdb
+H:\ТРПО\бэкап\авторизация и роли!css\ContosoSite\ContosoSite\bin\Newtonsoft.Json.xml
+H:\ТРПО\бэкап\авторизация и роли!css\ContosoSite\ContosoSite\bin\EntityFramework.xml
+H:\ТРПО\бэкап\авторизация и роли!css\ContosoSite\ContosoSite\bin\EntityFramework.SqlServer.xml
+H:\ТРПО\бэкап\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.AspNet.Identity.Core.xml
+H:\ТРПО\бэкап\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.AspNet.Identity.Owin.xml
+H:\ТРПО\бэкап\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+H:\ТРПО\бэкап\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.Owin.xml
+H:\ТРПО\бэкап\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.Owin.Host.SystemWeb.xml
+H:\ТРПО\бэкап\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.xml
+H:\ТРПО\бэкап\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.Facebook.xml
+H:\ТРПО\бэкап\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.Cookies.xml
+H:\ТРПО\бэкап\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.OAuth.xml
+H:\ТРПО\бэкап\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.Google.xml
+H:\ТРПО\бэкап\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.Twitter.xml
+H:\ТРПО\бэкап\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+H:\ТРПО\бэкап\авторизация и роли!css\ContosoSite\ContosoSite\bin\ru\System.Web.Helpers.resources.dll
+H:\ТРПО\бэкап\авторизация и роли!css\ContosoSite\ContosoSite\bin\ru\System.Web.Mvc.resources.dll
+H:\ТРПО\бэкап\авторизация и роли!css\ContosoSite\ContosoSite\bin\ru\System.Web.Optimization.resources.dll
+H:\ТРПО\бэкап\авторизация и роли!css\ContosoSite\ContosoSite\bin\ru\System.Web.Razor.resources.dll
+H:\ТРПО\бэкап\авторизация и роли!css\ContosoSite\ContosoSite\bin\ru\System.Web.WebPages.resources.dll
+H:\ТРПО\бэкап\авторизация и роли!css\ContosoSite\ContosoSite\bin\ru\System.Web.WebPages.Deployment.resources.dll
+H:\ТРПО\бэкап\авторизация и роли!css\ContosoSite\ContosoSite\bin\ru\System.Web.WebPages.Razor.resources.dll
+H:\ТРПО\бэкап\авторизация и роли!css\ContosoSite\ContosoSite\bin\ru\EntityFramework.resources.dll
+H:\ТРПО\бэкап\авторизация и роли!css\ContosoSite\ContosoSite\bin\ru\EntityFramework.SqlServer.resources.dll
+H:\ТРПО\бэкап\авторизация и роли!css\ContosoSite\ContosoSite\bin\ru\Microsoft.AspNet.Identity.Core.resources.dll
+H:\ТРПО\бэкап\авторизация и роли!css\ContosoSite\ContosoSite\bin\ru\Microsoft.AspNet.Identity.Owin.resources.dll
+H:\ТРПО\бэкап\авторизация и роли!css\ContosoSite\ContosoSite\bin\ru\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+H:\ТРПО\бэкап\авторизация и роли!css\ContosoSite\ContosoSite\bin\ru\Microsoft.Owin.resources.dll
+H:\ТРПО\бэкап\авторизация и роли!css\ContosoSite\ContosoSite\bin\ru\Microsoft.Owin.Host.SystemWeb.resources.dll
+H:\ТРПО\бэкап\авторизация и роли!css\ContosoSite\ContosoSite\bin\ru\Microsoft.Owin.Security.resources.dll
+H:\ТРПО\бэкап\авторизация и роли!css\ContosoSite\ContosoSite\bin\ru\Microsoft.Owin.Security.Facebook.resources.dll
+H:\ТРПО\бэкап\авторизация и роли!css\ContosoSite\ContosoSite\bin\ru\Microsoft.Owin.Security.Google.resources.dll
+H:\ТРПО\бэкап\авторизация и роли!css\ContosoSite\ContosoSite\bin\ru\Microsoft.Owin.Security.Twitter.resources.dll
+H:\ТРПО\бэкап\авторизация и роли!css\ContosoSite\ContosoSite\bin\ru\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+H:\ТРПО\бэкап\авторизация и роли!css\ContosoSite\ContosoSite\obj\Debug\ContosoSite.csprojResolveAssemblyReference.cache
+H:\ТРПО\бэкап\авторизация и роли!css\ContosoSite\ContosoSite\obj\Debug\ContosoSite.dll
+H:\ТРПО\бэкап\авторизация и роли!css\ContosoSite\ContosoSite\obj\Debug\ContosoSite.pdb
+H:\ТРПО\бэкап\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\ContosoSite.dll.config
+H:\ТРПО\бэкап\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\ContosoSite.dll
+H:\ТРПО\бэкап\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\ContosoSite.pdb
+H:\ТРПО\бэкап\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Antlr3.Runtime.dll
+H:\ТРПО\бэкап\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\EntityFramework.dll
+H:\ТРПО\бэкап\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\EntityFramework.SqlServer.dll
+H:\ТРПО\бэкап\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.AspNet.Identity.Core.dll
+H:\ТРПО\бэкап\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+H:\ТРПО\бэкап\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.AspNet.Identity.Owin.dll
+H:\ТРПО\бэкап\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.Owin.dll
+H:\ТРПО\бэкап\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.Owin.Host.SystemWeb.dll
+H:\ТРПО\бэкап\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.Cookies.dll
+H:\ТРПО\бэкап\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.dll
+H:\ТРПО\бэкап\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.Facebook.dll
+H:\ТРПО\бэкап\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.Google.dll
+H:\ТРПО\бэкап\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+H:\ТРПО\бэкап\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.OAuth.dll
+H:\ТРПО\бэкап\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.Twitter.dll
+H:\ТРПО\бэкап\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.Web.Infrastructure.dll
+H:\ТРПО\бэкап\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Newtonsoft.Json.dll
+H:\ТРПО\бэкап\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Owin.dll
+H:\ТРПО\бэкап\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\System.Web.Helpers.dll
+H:\ТРПО\бэкап\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\System.Web.Mvc.dll
+H:\ТРПО\бэкап\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\System.Web.Optimization.dll
+H:\ТРПО\бэкап\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\System.Web.Razor.dll
+H:\ТРПО\бэкап\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\System.Web.WebPages.Deployment.dll
+H:\ТРПО\бэкап\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\System.Web.WebPages.dll
+H:\ТРПО\бэкап\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\System.Web.WebPages.Razor.dll
+H:\ТРПО\бэкап\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\WebGrease.dll
+H:\ТРПО\бэкап\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.SqlServer.DTSRuntimeWrap.dll
+H:\ТРПО\бэкап\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\System.Web.Helpers.xml
+H:\ТРПО\бэкап\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\System.Web.Mvc.xml
+H:\ТРПО\бэкап\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\System.Web.Optimization.xml
+H:\ТРПО\бэкап\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\System.Web.Razor.xml
+H:\ТРПО\бэкап\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\System.Web.WebPages.xml
+H:\ТРПО\бэкап\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\System.Web.WebPages.Deployment.xml
+H:\ТРПО\бэкап\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\System.Web.WebPages.Razor.xml
+H:\ТРПО\бэкап\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Antlr3.Runtime.pdb
+H:\ТРПО\бэкап\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Newtonsoft.Json.xml
+H:\ТРПО\бэкап\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\EntityFramework.xml
+H:\ТРПО\бэкап\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\EntityFramework.SqlServer.xml
+H:\ТРПО\бэкап\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.AspNet.Identity.Core.xml
+H:\ТРПО\бэкап\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.AspNet.Identity.Owin.xml
+H:\ТРПО\бэкап\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+H:\ТРПО\бэкап\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.Owin.xml
+H:\ТРПО\бэкап\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.Owin.Host.SystemWeb.xml
+H:\ТРПО\бэкап\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.xml
+H:\ТРПО\бэкап\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.Facebook.xml
+H:\ТРПО\бэкап\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.Cookies.xml
+H:\ТРПО\бэкап\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.OAuth.xml
+H:\ТРПО\бэкап\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.Google.xml
+H:\ТРПО\бэкап\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.Twitter.xml
+H:\ТРПО\бэкап\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+H:\ТРПО\бэкап\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\ru\System.Web.Helpers.resources.dll
+H:\ТРПО\бэкап\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\ru\System.Web.Mvc.resources.dll
+H:\ТРПО\бэкап\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\ru\System.Web.Optimization.resources.dll
+H:\ТРПО\бэкап\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\ru\System.Web.Razor.resources.dll
+H:\ТРПО\бэкап\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\ru\System.Web.WebPages.resources.dll
+H:\ТРПО\бэкап\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\ru\System.Web.WebPages.Deployment.resources.dll
+H:\ТРПО\бэкап\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\ru\System.Web.WebPages.Razor.resources.dll
+H:\ТРПО\бэкап\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\ru\EntityFramework.resources.dll
+H:\ТРПО\бэкап\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\ru\EntityFramework.SqlServer.resources.dll
+H:\ТРПО\бэкап\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\ru\Microsoft.AspNet.Identity.Core.resources.dll
+H:\ТРПО\бэкап\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\ru\Microsoft.AspNet.Identity.Owin.resources.dll
+H:\ТРПО\бэкап\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\ru\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+H:\ТРПО\бэкап\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\ru\Microsoft.Owin.resources.dll
+H:\ТРПО\бэкап\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\ru\Microsoft.Owin.Host.SystemWeb.resources.dll
+H:\ТРПО\бэкап\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\ru\Microsoft.Owin.Security.resources.dll
+H:\ТРПО\бэкап\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\ru\Microsoft.Owin.Security.Facebook.resources.dll
+H:\ТРПО\бэкап\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\ru\Microsoft.Owin.Security.Google.resources.dll
+H:\ТРПО\бэкап\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\ru\Microsoft.Owin.Security.Twitter.resources.dll
+H:\ТРПО\бэкап\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\ru\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+H:\ТРПО\бэкап\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\obj\Debug\ContosoSite.dll
+H:\ТРПО\бэкап\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\obj\Debug\ContosoSite.pdb
+H:\ТРПО\бэкап\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\obj\Debug\ContosoSite.csprojResolveAssemblyReference.cache
+H:\ТРПО\последнийБэкапПроект\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\ContosoSite.dll.config
+H:\ТРПО\последнийБэкапПроект\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\ContosoSite.dll
+H:\ТРПО\последнийБэкапПроект\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\ContosoSite.pdb
+H:\ТРПО\последнийБэкапПроект\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Antlr3.Runtime.dll
+H:\ТРПО\последнийБэкапПроект\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\EntityFramework.dll
+H:\ТРПО\последнийБэкапПроект\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\EntityFramework.SqlServer.dll
+H:\ТРПО\последнийБэкапПроект\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.AspNet.Identity.Core.dll
+H:\ТРПО\последнийБэкапПроект\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+H:\ТРПО\последнийБэкапПроект\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.AspNet.Identity.Owin.dll
+H:\ТРПО\последнийБэкапПроект\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.Owin.dll
+H:\ТРПО\последнийБэкапПроект\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.Owin.Host.SystemWeb.dll
+H:\ТРПО\последнийБэкапПроект\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.Cookies.dll
+H:\ТРПО\последнийБэкапПроект\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.dll
+H:\ТРПО\последнийБэкапПроект\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.Facebook.dll
+H:\ТРПО\последнийБэкапПроект\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.Google.dll
+H:\ТРПО\последнийБэкапПроект\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+H:\ТРПО\последнийБэкапПроект\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.OAuth.dll
+H:\ТРПО\последнийБэкапПроект\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.Twitter.dll
+H:\ТРПО\последнийБэкапПроект\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.Web.Infrastructure.dll
+H:\ТРПО\последнийБэкапПроект\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Newtonsoft.Json.dll
+H:\ТРПО\последнийБэкапПроект\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Owin.dll
+H:\ТРПО\последнийБэкапПроект\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\System.Web.Helpers.dll
+H:\ТРПО\последнийБэкапПроект\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\System.Web.Mvc.dll
+H:\ТРПО\последнийБэкапПроект\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\System.Web.Optimization.dll
+H:\ТРПО\последнийБэкапПроект\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\System.Web.Razor.dll
+H:\ТРПО\последнийБэкапПроект\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\System.Web.WebPages.Deployment.dll
+H:\ТРПО\последнийБэкапПроект\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\System.Web.WebPages.dll
+H:\ТРПО\последнийБэкапПроект\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\System.Web.WebPages.Razor.dll
+H:\ТРПО\последнийБэкапПроект\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\WebGrease.dll
+H:\ТРПО\последнийБэкапПроект\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.SqlServer.DTSRuntimeWrap.dll
+H:\ТРПО\последнийБэкапПроект\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\System.Web.Helpers.xml
+H:\ТРПО\последнийБэкапПроект\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\System.Web.Mvc.xml
+H:\ТРПО\последнийБэкапПроект\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\System.Web.Optimization.xml
+H:\ТРПО\последнийБэкапПроект\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\System.Web.Razor.xml
+H:\ТРПО\последнийБэкапПроект\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\System.Web.WebPages.xml
+H:\ТРПО\последнийБэкапПроект\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\System.Web.WebPages.Deployment.xml
+H:\ТРПО\последнийБэкапПроект\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\System.Web.WebPages.Razor.xml
+H:\ТРПО\последнийБэкапПроект\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Antlr3.Runtime.pdb
+H:\ТРПО\последнийБэкапПроект\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Newtonsoft.Json.xml
+H:\ТРПО\последнийБэкапПроект\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\EntityFramework.xml
+H:\ТРПО\последнийБэкапПроект\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\EntityFramework.SqlServer.xml
+H:\ТРПО\последнийБэкапПроект\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.AspNet.Identity.Core.xml
+H:\ТРПО\последнийБэкапПроект\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.AspNet.Identity.Owin.xml
+H:\ТРПО\последнийБэкапПроект\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+H:\ТРПО\последнийБэкапПроект\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.Owin.xml
+H:\ТРПО\последнийБэкапПроект\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.Owin.Host.SystemWeb.xml
+H:\ТРПО\последнийБэкапПроект\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.xml
+H:\ТРПО\последнийБэкапПроект\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.Facebook.xml
+H:\ТРПО\последнийБэкапПроект\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.Cookies.xml
+H:\ТРПО\последнийБэкапПроект\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.OAuth.xml
+H:\ТРПО\последнийБэкапПроект\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.Google.xml
+H:\ТРПО\последнийБэкапПроект\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.Twitter.xml
+H:\ТРПО\последнийБэкапПроект\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+H:\ТРПО\последнийБэкапПроект\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\ru\System.Web.Helpers.resources.dll
+H:\ТРПО\последнийБэкапПроект\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\ru\System.Web.Mvc.resources.dll
+H:\ТРПО\последнийБэкапПроект\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\ru\System.Web.Optimization.resources.dll
+H:\ТРПО\последнийБэкапПроект\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\ru\System.Web.Razor.resources.dll
+H:\ТРПО\последнийБэкапПроект\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\ru\System.Web.WebPages.resources.dll
+H:\ТРПО\последнийБэкапПроект\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\ru\System.Web.WebPages.Deployment.resources.dll
+H:\ТРПО\последнийБэкапПроект\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\ru\System.Web.WebPages.Razor.resources.dll
+H:\ТРПО\последнийБэкапПроект\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\ru\EntityFramework.resources.dll
+H:\ТРПО\последнийБэкапПроект\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\ru\EntityFramework.SqlServer.resources.dll
+H:\ТРПО\последнийБэкапПроект\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\ru\Microsoft.AspNet.Identity.Core.resources.dll
+H:\ТРПО\последнийБэкапПроект\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\ru\Microsoft.AspNet.Identity.Owin.resources.dll
+H:\ТРПО\последнийБэкапПроект\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\ru\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+H:\ТРПО\последнийБэкапПроект\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\ru\Microsoft.Owin.resources.dll
+H:\ТРПО\последнийБэкапПроект\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\ru\Microsoft.Owin.Host.SystemWeb.resources.dll
+H:\ТРПО\последнийБэкапПроект\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\ru\Microsoft.Owin.Security.resources.dll
+H:\ТРПО\последнийБэкапПроект\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\ru\Microsoft.Owin.Security.Facebook.resources.dll
+H:\ТРПО\последнийБэкапПроект\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\ru\Microsoft.Owin.Security.Google.resources.dll
+H:\ТРПО\последнийБэкапПроект\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\ru\Microsoft.Owin.Security.Twitter.resources.dll
+H:\ТРПО\последнийБэкапПроект\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\ru\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+H:\ТРПО\последнийБэкапПроект\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\obj\Debug\ContosoSite.csprojResolveAssemblyReference.cache
+H:\ТРПО\последнийБэкапПроект\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\obj\Debug\ContosoSite.dll
+H:\ТРПО\последнийБэкапПроект\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\obj\Debug\ContosoSite.pdb
+H:\ТРПО\текущий\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\ContosoSite.dll.config
+H:\ТРПО\текущий\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\ContosoSite.dll
+H:\ТРПО\текущий\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\ContosoSite.pdb
+H:\ТРПО\текущий\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Antlr3.Runtime.dll
+H:\ТРПО\текущий\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\EntityFramework.dll
+H:\ТРПО\текущий\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\EntityFramework.SqlServer.dll
+H:\ТРПО\текущий\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.AspNet.Identity.Core.dll
+H:\ТРПО\текущий\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+H:\ТРПО\текущий\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.AspNet.Identity.Owin.dll
+H:\ТРПО\текущий\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.Owin.dll
+H:\ТРПО\текущий\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.Owin.Host.SystemWeb.dll
+H:\ТРПО\текущий\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.Cookies.dll
+H:\ТРПО\текущий\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.dll
+H:\ТРПО\текущий\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.Facebook.dll
+H:\ТРПО\текущий\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.Google.dll
+H:\ТРПО\текущий\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+H:\ТРПО\текущий\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.OAuth.dll
+H:\ТРПО\текущий\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.Twitter.dll
+H:\ТРПО\текущий\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.Web.Infrastructure.dll
+H:\ТРПО\текущий\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Newtonsoft.Json.dll
+H:\ТРПО\текущий\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Owin.dll
+H:\ТРПО\текущий\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\System.Web.Helpers.dll
+H:\ТРПО\текущий\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\System.Web.Mvc.dll
+H:\ТРПО\текущий\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\System.Web.Optimization.dll
+H:\ТРПО\текущий\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\System.Web.Razor.dll
+H:\ТРПО\текущий\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\System.Web.WebPages.Deployment.dll
+H:\ТРПО\текущий\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\System.Web.WebPages.dll
+H:\ТРПО\текущий\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\System.Web.WebPages.Razor.dll
+H:\ТРПО\текущий\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\WebGrease.dll
+H:\ТРПО\текущий\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.SqlServer.DTSRuntimeWrap.dll
+H:\ТРПО\текущий\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\System.Web.Helpers.xml
+H:\ТРПО\текущий\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\System.Web.Mvc.xml
+H:\ТРПО\текущий\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\System.Web.Optimization.xml
+H:\ТРПО\текущий\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\System.Web.Razor.xml
+H:\ТРПО\текущий\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\System.Web.WebPages.xml
+H:\ТРПО\текущий\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\System.Web.WebPages.Deployment.xml
+H:\ТРПО\текущий\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\System.Web.WebPages.Razor.xml
+H:\ТРПО\текущий\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Antlr3.Runtime.pdb
+H:\ТРПО\текущий\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Newtonsoft.Json.xml
+H:\ТРПО\текущий\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\EntityFramework.xml
+H:\ТРПО\текущий\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\EntityFramework.SqlServer.xml
+H:\ТРПО\текущий\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.AspNet.Identity.Core.xml
+H:\ТРПО\текущий\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.AspNet.Identity.Owin.xml
+H:\ТРПО\текущий\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+H:\ТРПО\текущий\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.Owin.xml
+H:\ТРПО\текущий\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.Owin.Host.SystemWeb.xml
+H:\ТРПО\текущий\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.xml
+H:\ТРПО\текущий\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.Facebook.xml
+H:\ТРПО\текущий\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.Cookies.xml
+H:\ТРПО\текущий\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.OAuth.xml
+H:\ТРПО\текущий\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.Google.xml
+H:\ТРПО\текущий\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.Twitter.xml
+H:\ТРПО\текущий\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+H:\ТРПО\текущий\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\ru\System.Web.Helpers.resources.dll
+H:\ТРПО\текущий\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\ru\System.Web.Mvc.resources.dll
+H:\ТРПО\текущий\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\ru\System.Web.Optimization.resources.dll
+H:\ТРПО\текущий\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\ru\System.Web.Razor.resources.dll
+H:\ТРПО\текущий\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\ru\System.Web.WebPages.resources.dll
+H:\ТРПО\текущий\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\ru\System.Web.WebPages.Deployment.resources.dll
+H:\ТРПО\текущий\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\ru\System.Web.WebPages.Razor.resources.dll
+H:\ТРПО\текущий\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\ru\EntityFramework.resources.dll
+H:\ТРПО\текущий\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\ru\EntityFramework.SqlServer.resources.dll
+H:\ТРПО\текущий\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\ru\Microsoft.AspNet.Identity.Core.resources.dll
+H:\ТРПО\текущий\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\ru\Microsoft.AspNet.Identity.Owin.resources.dll
+H:\ТРПО\текущий\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\ru\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+H:\ТРПО\текущий\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\ru\Microsoft.Owin.resources.dll
+H:\ТРПО\текущий\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\ru\Microsoft.Owin.Host.SystemWeb.resources.dll
+H:\ТРПО\текущий\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\ru\Microsoft.Owin.Security.resources.dll
+H:\ТРПО\текущий\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\ru\Microsoft.Owin.Security.Facebook.resources.dll
+H:\ТРПО\текущий\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\ru\Microsoft.Owin.Security.Google.resources.dll
+H:\ТРПО\текущий\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\ru\Microsoft.Owin.Security.Twitter.resources.dll
+H:\ТРПО\текущий\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\bin\ru\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+H:\ТРПО\текущий\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\obj\Debug\ContosoSite.csprojResolveAssemblyReference.cache
+H:\ТРПО\текущий\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\obj\Debug\ContosoSite.dll
+H:\ТРПО\текущий\попыткаКартиныХудожника\авторизация и роли!css\ContosoSite\ContosoSite\obj\Debug\ContosoSite.pdb

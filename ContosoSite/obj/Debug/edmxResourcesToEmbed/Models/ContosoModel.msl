@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище VistavkiModelContainer" CdmEntityContainer="VistavkiEntities">
+    <EntitySetMapping Name="Exhibitions">
+      <EntityTypeMapping TypeName="VistavkiModel.Exhibition">
+        <MappingFragment StoreEntitySet="Exhibition">
+          <ScalarProperty Name="Id_exhibition" ColumnName="Id_exhibition" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ThemeOf" ColumnName="ThemeOf" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="Date_Open" ColumnName="Date_Open" />
+          <ScalarProperty Name="Date_Close" ColumnName="Date_Close" />
+          <ScalarProperty Name="Status_id" ColumnName="Status_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Status">
+      <EntityTypeMapping TypeName="VistavkiModel.Status">
+        <MappingFragment StoreEntitySet="Status">
+          <ScalarProperty Name="Id_status" ColumnName="Id_status" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Artists">
+      <EntityTypeMapping TypeName="VistavkiModel.Artist">
+        <MappingFragment StoreEntitySet="Artist">
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="SecondName" ColumnName="SecondName" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="Id_artist" ColumnName="Id_artist" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Accounts">
+      <EntityTypeMapping TypeName="VistavkiModel.Account">
+        <MappingFragment StoreEntitySet="Account">
+          <ScalarProperty Name="Role" ColumnName="Role" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Login" ColumnName="Login" />
+          <ScalarProperty Name="Id_acc" ColumnName="Id_acc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Pictures">
+      <EntityTypeMapping TypeName="VistavkiModel.Picture">
+        <MappingFragment StoreEntitySet="Picture">
+          <ScalarProperty Name="Image" ColumnName="Image" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Artist_id" ColumnName="Artist_id" />
+          <ScalarProperty Name="Exhibition_id" ColumnName="Exhibition_id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Id_pic" ColumnName="Id_pic" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="Insert_User" FunctionName="Хранилище VistavkiModel.Insert_User" />
+    <FunctionImportMapping FunctionImportName="Auth_User" FunctionName="Хранилище VistavkiModel.Auth_User">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="VistavkiModel.Auth_User_Result">
+          <ScalarProperty Name="Login" ColumnName="Login" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Role" ColumnName="Role" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="CountPic" FunctionName="Хранилище VistavkiModel.CountPic" />
+  </EntityContainerMapping>
+</Mapping>
