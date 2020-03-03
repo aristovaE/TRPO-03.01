@@ -1,0 +1,19 @@
+﻿@{
+    ViewBag.Title = "Домашняя страница";
+}
+
+@*<div class="jumbotron">
+    <h1>Авторизация</h1>
+    <p class="lead">Login from "@User.Identity.Name" Account.</p>
+    <p class="lead">Role @TempData.Peek("Role").</p>
+    *@
+
+<div class="row">
+        <h2>Добро пожаловать!</h2>
+
+        <div class="mainscreen">
+            Можете посмотреть список @Html.ActionLink("выставок", "Index", "Exhibitions") и @Html.ActionLink("картин", "Index", "Pictures"), а также @Html.ActionLink("художников", "Index", "Artists"), участвующих в наших выставках.
+                <br />
+</div>
+        <img align="middle" src="H:\ТРПО\Image\main.jpg" alt="image" width="1150" />
+     </div>  

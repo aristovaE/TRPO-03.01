@@ -1,0 +1,108 @@
+﻿@model ContosoSite.Models.Picture
+
+@{
+    ViewBag.Title = "Редактирование картины";
+}
+
+<h2>Редактирование</h2>
+
+@using (Html.BeginForm("Edit", "Pictures", null, FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+@Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h4>Picture</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.HiddenFor(model => model.Id_pic)
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Name, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Exhibition_id, "Exhibition_id", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("Exhibition_id", null, htmlAttributes: new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.Exhibition_id, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+
+        @if (User.Identity.IsAuthenticated)
+        {
+            if ((string)TempData.Peek("Role") == "admin")
+            { <div class="form-group">
+                @Html.LabelFor(model => model.Artist_id, "Artist_id", htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.DropDownList("Artist_id", null, htmlAttributes: new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.Artist_id, "", new { @class = "text-danger" })
+
+                </div>
+            </div>
+            }
+            else
+            {
+
+                <div hidden="hidden">
+                    @Html.DropDownList("Artist_id", null, htmlAttributes: new { @class = "form-control" })
+                </div>
+                @Html.ValidationMessageFor(model => model.Artist_id, "", new { @class = "text-danger" })
+            }
+        }
+
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Description, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Description, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Description, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="control-label col-md-2"><p><b>Фото</b></p></div>
+        <div class="editor-field">
+            @if (Model.Image == null)
+            {
+                @:None
+        }
+            else
+            {
+                byte[] photo = Model.Image;
+                string imageSrc = null;
+                if (photo != null)
+                {
+                    MemoryStream ms = new MemoryStream();
+                    ms.Write(photo, 0, photo.Length);
+                    string imageBase64 = Convert.ToBase64String(ms.ToArray());
+                    imageSrc = string.Format("data:image/jpg;base64,{0}", imageBase64);
+                    string base64String = Convert.ToBase64String(photo, 0, photo.Length);
+                }
+
+                <img width="250" height="150" src="@imageSrc" />
+            }
+        </div>
+            <div class ="control-label col-md-2"><p><b>Выбрать новую фотографию:</b></p> </div>
+        <input class="new"type="file" name="upload" />
+        
+
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Назад", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

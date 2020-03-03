@@ -1,0 +1,80 @@
+﻿@model ContosoSite.Models.Exhibition
+
+@{
+    ViewBag.Title = "Удаление";
+}
+
+<h2>Удаление</h2>
+
+<h3>Подтвердите удаление</h3>
+<div>
+    <h4>Выставка</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Название
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+          Тема выставки
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ThemeOf)
+        </dd>
+
+        <dt>
+            Адрес
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Address)
+        </dd>
+
+        <dt>
+            Цена билета
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Price)
+        </dd>
+
+        <dt>
+            Дата открытия выставки
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Date_Open)
+        </dd>
+
+        <dt>
+           Дата закрытия выставки
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Date_Close)
+        </dd>
+
+        <dt>
+           Статус
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Status.Name)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Назад", "Index")
+        </div>
+    }
+</div>

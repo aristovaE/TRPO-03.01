@@ -1,0 +1,73 @@
+﻿@model ContosoSite.Models.Picture
+
+@{
+    ViewBag.Title = "Подробнее";
+}
+
+<h2>Подробнее</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dd>
+            @{ byte[] photo = Model.Image;
+             string imageSrc = null;
+             if (photo != null)
+             {
+                 MemoryStream ms = new MemoryStream();
+                 ms.Write(photo, 0, photo.Length);
+                 string imageBase64 = Convert.ToBase64String(ms.ToArray());
+                 imageSrc = string.Format("data:image/jpg;base64,{0}", imageBase64);
+                 string base64String = Convert.ToBase64String(photo, 0, photo.Length);
+             }
+            }
+
+            <img src="@imageSrc" alt="Image" width="500" />
+
+
+        </dd>
+        <dt>
+           Название картины
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+           Описание
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+
+
+        <dt>
+           Художник
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Artist.SecondName)
+        </dd>
+
+        <dt>
+          Выставка
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Exhibition.Name)
+        </dd>
+
+    </dl>
+</div>
+<p>
+  @if (User.Identity.IsAuthenticated)
+{
+    if ((string)TempData.Peek("Role") == "admin" || ((string)TempData.Peek("Login") == Model.Artist.SecondName))
+           {
+        @Html.ActionLink("Редактировать", "Edit", new { id = Model.Id_pic })        
+    }
+    }
+    @Html.ActionLink("Назад", "Index")
+</p>

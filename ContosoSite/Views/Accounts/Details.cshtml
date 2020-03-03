@@ -1,0 +1,48 @@
+﻿@model ContosoSite.Models.Account
+
+@{
+    ViewBag.Title = "Подробнее";
+}
+
+<h2>Подробнее</h2>
+
+<div>
+    <h4>Учетная запись</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Login)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Login)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Password)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Password)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Role)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Role)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @if (User.Identity.IsAuthenticated)
+    {
+        if ((string)TempData.Peek("Role") == "admin" )
+        {
+            @Html.ActionLink("Редактировать", "Edit", new { id = Model.Id_acc })
+        }
+    }
+    @Html.ActionLink("Назад", "Index")
+</p>

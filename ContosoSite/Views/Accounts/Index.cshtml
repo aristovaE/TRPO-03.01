@@ -1,0 +1,47 @@
+﻿@model IEnumerable<ContosoSite.Models.Account>
+
+@{
+    ViewBag.Title = "Учетные записи";
+}
+
+<h2>ВСЕ УЧЕТНЫЕ ЗАПИСИ</h2>
+
+@*<p>
+    @Html.ActionLink("Create New", "Create")
+</p>*@
+<table class="table">
+    <tr>
+        <th>
+           Логин
+        </th>
+        <th>
+           Пароль
+        </th>
+        <th>
+           Роль
+        </th>
+
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Login)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Password)
+        </td>
+        <th>
+            @Html.DisplayFor(modelItem => item.Role)
+        </th>
+
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.Id_acc }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Id_acc }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Id_acc })
+        </td>
+    </tr>
+}
+
+</table>

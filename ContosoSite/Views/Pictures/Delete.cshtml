@@ -1,0 +1,64 @@
+﻿@model ContosoSite.Models.Picture
+
+@{
+    ViewBag.Title = "Удаление";
+}
+
+<h2>Удаление</h2>
+
+<h3>Подтвердите удаление</h3>
+<div>
+    <h4>Картина</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+          Название
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+          Описание
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+
+        <dt>
+           Изображение
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Image)
+        </dd>
+
+        <dt>
+          Автор
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Artist.FirstName)
+        </dd>
+
+        <dt>
+           Выставка
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Exhibition.Name)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Назад", "Index")
+        </div>
+    }
+</div>

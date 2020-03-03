@@ -1,0 +1,80 @@
+﻿@model ContosoSite.Models.Exhibition
+
+@{
+    ViewBag.Title = "Подробнее";
+}
+
+<h2>Подробнее</h2>
+
+<div>
+    <h4>Выставка</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+          Название
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+Тема выставки
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ThemeOf)
+        </dd>
+
+        <dt>
+            Адрес
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Address)
+        </dd>
+
+        <dt>
+           Цена билета
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Price)
+        </dd>
+
+        <dt>
+           Дата открытия
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Date_Open)
+        </dd>
+
+        <dt>
+           Дата закрытия
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Date_Close)
+        </dd>
+
+        <dt>
+           Статус выставки
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Status.Name)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @if (User.Identity.IsAuthenticated)
+    {
+        if ((string)TempData.Peek("Role") == "admin")
+        {
+            @Html.ActionLink("Редактировать", "Edit", new { id = Model.Id_exhibition})
+        }
+    }
+    @Html.ActionLink("Назад", "Index")
+</p>

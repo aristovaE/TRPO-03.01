@@ -1,0 +1,106 @@
+﻿@model IEnumerable<ContosoSite.Models.Exhibition>
+
+@{
+    ViewBag.Title = "Выставки";
+}
+
+<h2>ВЫСТАВКИ</h2>
+@if (User.Identity.IsAuthenticated)
+{
+    if ((string)TempData.Peek("Role") == "admin")
+    {
+<p>
+    @Html.ActionLink("Добавить выставку", "Create")
+</p>
+    }
+}
+@using (Html.BeginForm())
+{
+    <p>
+        Поиск по названию или теме выставки: @Html.TextBox("SearchString")
+        <input type="submit" value="Search" class="btn btn-primary" />
+    </p>
+}
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.ActionLink("Название", "Index", new { sortOrder = ViewBag.NameSortParm })
+        </th>
+        <th>
+           Тема выставки
+        </th>
+        <th>
+          Адрес
+        </th>
+        <th>
+           Цена
+        </th>
+        <th>
+            @Html.ActionLink("Дата открытия", "Index", new { sortOrder = ViewBag.DateSortParm })
+        </th>
+
+        <th>
+           Дата закрытия
+        </th>
+        <th>
+            Статус выставки
+        </th>
+        <th>
+            Количество картин
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.ActionLink(item.Name, "../Pictures/Index", new { exhibName1 = item.Id_exhibition })
+        
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ThemeOf)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Address)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Price)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Date_Open)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Date_Close)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Status.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Pictures.Count)
+        </td>
+        @if (User.Identity.IsAuthenticated)
+        {
+            if ((string)TempData.Peek("Role") == "admin")
+            {
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.Id_exhibition}) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.Id_exhibition }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.Id_exhibition })
+                </td>
+            }
+            
+
+        }
+        else
+        {
+            <td>
+                @Html.ActionLink("Details", "Details", new { id = item.Id_exhibition })
+            </td>
+        }
+    </tr>
+   
+}
+
+</table>
+@Html.ActionLink("A", "GenerateXML")
