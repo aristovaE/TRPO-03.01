@@ -15,7 +15,7 @@ namespace ContosoSite.Controllers
         private VistavkiEntities db = new VistavkiEntities();
 
         // GET: Pictures
-        public ActionResult Index(int? exhib, int?exhibName1)
+        public ActionResult Index(int? exhib, int? exhibNameExhibition, int? exhibNameArtist)
         {
             // Use LINQ to get list of genres.
            
@@ -33,10 +33,18 @@ namespace ContosoSite.Controllers
 
 
 
-            ViewBag.NameSort = new SelectList(db.Exhibitions, "Id_exhibition", "Name", exhibName1);
-            if (exhibName1!=null)
+           
+            if (exhibNameExhibition != null)
             {
-                picture = picture.Where(x => x.Exhibition_id==exhibName1);
+                ViewBag.NameSort = new SelectList(db.Exhibitions, "Id_exhibition", "Name", exhibNameExhibition);
+                picture = picture.Where(x => x.Exhibition_id == exhibNameExhibition);
+            }
+
+
+            if (exhibNameArtist != null)
+            {
+                ViewBag.NameSort = new SelectList(db.Exhibitions, "Id_artist", "FirstName", exhibNameArtist);
+                picture = picture.Where(x => x.Artist_id == exhibNameArtist);
             }
             return View(picture);
 

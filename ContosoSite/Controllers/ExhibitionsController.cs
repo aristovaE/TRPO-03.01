@@ -20,13 +20,14 @@ namespace ContosoSite.Controllers
         // GET: Exhibitions
         public ViewResult Index(string sortOrder, string searchString, string exhibName)
         {
+            //VistavkiEntities db = new VistavkiEntities();
             ViewBag.NameSortParm = String.IsNullOrEmpty(sortOrder) ? "name_desc" : "";
 
             ViewBag.NameSort = new SelectList(db.Exhibitions, "Id_exhibition", "Name", exhibName);
-            
+
             ViewBag.DateSortParm = sortOrder == "Date" ? "date_desc" : "Date";
             var exhibitions = from s in db.Exhibitions
-                           select s;
+                              select s;
             if (!String.IsNullOrEmpty(searchString))
             {
                 exhibitions = exhibitions.Where(s => s.Name.Contains(searchString)
@@ -63,14 +64,16 @@ namespace ContosoSite.Controllers
             XmlWriterSettings xws = new XmlWriterSettings();
             xws.OmitXmlDeclaration = true;
             xws.Indent = true;
-
-            foreach (var exhib in db.Exhibitions)
-            {
+            XDocument doc = new XDocument();
+            XElement xelem = new XElement("Exhibitions");
+            doc.Add(xelem);
+           
                 using (XmlWriter xw = XmlWriter.Create(ms, xws))
                 {
-                    XDocument doc = new XDocument(
-                        new XElement("BD_Exhibitions",
-                     new XElement("Exhibitions",
+                    foreach (var exhib in db.Exhibitions)
+                    {
+                    xelem.Add(
+                     new XElement("Exhibition",
                       new XElement("Name", exhib.Name),
                       new XElement("ThemeOf", exhib.ThemeOf),
                       new XElement("Address", exhib.Address),
@@ -79,9 +82,10 @@ namespace ContosoSite.Controllers
                       new XElement("Data_Close", exhib.Date_Close),
                       new XElement("Status_id", exhib.Status_id)
                      )
-                    ));
+                    );
+
+                    }
                     doc.WriteTo(xw);
-                }
             }
             ms.Position = 0;
             return File(ms, "text/xml", "Exhibitions.xml");
